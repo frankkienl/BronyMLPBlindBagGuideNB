@@ -31,7 +31,7 @@ public class WaveActivity extends Activity {
         super.onCreate(savedInstanceState);
         waveNr = getIntent().getIntExtra("waveNr", -1);
         if (waveNr == -1) {
-            Toast.makeText(this, "Select a Wave", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Select a Wave (" + waveNr + ")", Toast.LENGTH_LONG).show();
             finish();
             return;
         }
@@ -87,8 +87,12 @@ public class WaveActivity extends Activity {
                 wave = new Wave9();
                 break;
             }
+            case 10: {
+                wave = new Wave10();
+                break;
+            }
             default: {
-                Toast.makeText(this, "Select a Wave", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Select a Wave(" + waveNr + ")", Toast.LENGTH_LONG).show();
                 finish();
                 return;
             }
