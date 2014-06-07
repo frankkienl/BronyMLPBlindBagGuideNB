@@ -2,6 +2,9 @@
 <!--
 http://developer.android.com/guide/topics/data/install-location.html
 
+1.1.5:
+- Fixed Wave 10
+
 1.1.4:
 - Added Wave 10
 
@@ -22,8 +25,8 @@ http://developer.android.com/guide/topics/data/install-location.html
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nl.frankkie.bronymlpblindbagguide"
     android:installLocation="preferExternal"
-    android:versionCode="8"
-    android:versionName="1.1.4" >
+    android:versionCode="9"
+    android:versionName="1.1.5" >
 
     <uses-sdk
         android:minSdkVersion="7"
