@@ -9,8 +9,6 @@ Google Play: https://play.google.com/store/apps/details?id=nl.frankkie.bronymlpb
 
 APK: https://github.com/frankkienl/BronyMLPBlindBagGuide/blob/master/MLPBlindBagGuide/MLPBlindBagGuide.apk
 
-Or use the Dropbox-Link: http://db.tt/7DPCULPP
-
 Description
 ===========
 
