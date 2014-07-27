@@ -3,9 +3,13 @@ E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\gen\nl\frankkie\bronymlpblindbag
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable\tut2.jpg \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable\tut3.png \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-hdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-hdpi\ic_launcher_old.png \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-mdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-mdpi\ic_launcher_old.png \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-xhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-xhdpi\ic_launcher_old.png \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-xxhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\drawable-xxhdpi\ic_launcher_old.png \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\activity_code.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\activity_credits.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\activity_main.xml \
@@ -21,4 +25,13 @@ E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw600dp\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw720dp-land\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-v11\styles.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-v14\styles.xml \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable\tut3.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-hdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-hdpi\ic_launcher_old.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-mdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-mdpi\ic_launcher_old.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-xhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-xhdpi\ic_launcher_old.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-xxhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-xxhdpi\ic_launcher_old.png \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\AndroidManifest.xml \
