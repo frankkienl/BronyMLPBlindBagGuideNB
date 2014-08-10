@@ -9,10 +9,30 @@ import android.os.Parcelable;
  */
 public class Pony implements Parcelable {
 
+    /**
+     * Name of the pony. This will appear on-screen.
+     */
     String ponyName;
+    /**
+     * The ponyNumber is an internal ID for the app. It is not the number that
+     * appears on the screen, nor is it the 'real' number as in the set. The
+     * number on the screen must be in description[0]. This number will be used
+     * to save the collected-state to SharedPreferences!
+     */
     int ponyNumber;
+    /**
+     * Path and filename to the image in assets/. for example: Wave
+     * 1/01_PinkiePie.jpg
+     */
     String imageName;
-    String[] description;
+    /**
+     * Description of the pony. This will appear on-screen. Its convention to
+     * put the ponyNumber (of the IRL set) in description[0].
+     */
+    String[] description; //default
+    /**
+     * Code that appears on the IRL bag. This will appear on-screen.
+     */
     String blindbagCode;
 
     public String getPonyName() {
@@ -25,6 +45,10 @@ public class Pony implements Parcelable {
 
     public String[] getDescription() {
         return description;
+    }
+    
+    public String getBlindbagCode(){
+        return blindbagCode;
     }
 
     //<editor-fold desc="Parcelable" defaultstate="collapsed">
@@ -50,8 +74,7 @@ public class Pony implements Parcelable {
         ponyName = in.readString();
         ponyNumber = in.readInt();
         imageName = in.readString();
-        description = new String[]{""}; //default
-        in.readStringArray(description);
+        description = in.createStringArray();
         blindbagCode = in.readString();
     }
 

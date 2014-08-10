@@ -12,7 +12,7 @@
                     "ponyName": "Pinkie Pie",
                     "ponyNumber": 1,                    
                     "imageName": "Wave 1/01_PinkiePie.jpg",
-                    "description": [""],
+                    "description": ["01"],
                     "blindbagCode": "20415"
                 },
                 {
@@ -20,9 +20,201 @@
                     "ponyName": "Applejack",
                     "ponyNumber": 2,
                     "imageName": "Wave 1/02_Applejack.jpg",
-                    "description": [""],
+                    "description": ["02"],
                     "blindbagCode": "20425"                    
-                }
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Rainbow Dash",
+                    "ponyNumber": 3,
+                    "imageName": "Wave 1/03_RainbowDash.jpg",
+                    "description": ["03"],
+                    "blindbagCode": "20435"                    
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Rarity",
+                    "ponyNumber": 4,
+                    "imageName": "Wave 1/04_Rarity.jpg",
+                    "description": ["04"],
+                    "blindbagCode": "20445"                    
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Twilight Sparkle",
+                    "ponyNumber": 5,
+                    "imageName": "Wave 1/05_TwilightSparkle.jpg",
+                    "description": ["05"],
+                    "blindbagCode": "20455"                    
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Fluttershy",
+                    "ponyNumber": 6,
+                    "imageName": "Wave 1/06_Fluttershy.jpg",
+                    "description": ["06"],
+                    "blindbagCode": "20465"                    
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Sugar Grape",
+                    "ponyNumber": 7,
+                    "imageName": "Wave 1/07_SugarGrape.jpg",
+                    "description": ["07"],
+                    "blindbagCode": "20475"                    
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Lily Blossom",
+                    "ponyNumber": 8,                    
+                    "imageName": "Wave 1/08_LilyBlossom.jpg",
+                    "description": ["08"],
+                    "blindbagCode": "20485"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Lily Blossom",
+                    "ponyNumber": 9,                    
+                    "imageName": "Wave 1/08_LilyBlossomAlt.jpg",
+                    "description": ["08","darker variation"],
+                    "blindbagCode": "20485"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Minty",
+                    "ponyNumber": 10,                    
+                    "imageName": "Wave 1/09_Minty.jpg",
+                    "description": ["09"],
+                    "blindbagCode": "20495"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Bumble Sweet",
+                    "ponyNumber": 11,                    
+                    "imageName": "Wave 1/10_BumbleSweet.jpg",
+                    "description": ["10"],
+                    "blindbagCode": "21405"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Fizzy Pop",
+                    "ponyNumber": 12,                    
+                    "imageName": "Wave 1/11_Fizzypop.jpg",
+                    "description": ["11"],
+                    "blindbagCode": "21415"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Flower Wishes",
+                    "ponyNumber": 13,                    
+                    "imageName": "Wave 1/12_FlowerWishes.jpg",
+                    "description": ["12"],
+                    "blindbagCode": "21425"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Roseluck",
+                    "ponyNumber": 14,                    
+                    "imageName": "Wave 1/13_Roseluck.jpg",
+                    "description": ["13"],
+                    "blindbagCode": "21435"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Sweetie Blue",
+                    "ponyNumber": 15,                    
+                    "imageName": "Wave 1/14_SweetieBlue.jpg",
+                    "description": ["14"],
+                    "blindbagCode": "21445"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Pepper Dance",
+                    "ponyNumber": 16,                    
+                    "imageName": "Wave 1/15_PepperDance.jpg",
+                    "description": ["15"],
+                    "blindbagCode": "21455"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Lemon Hearts",
+                    "ponyNumber": 17,                    
+                    "imageName": "Wave 1/16_LemonHearts.jpg",
+                    "description": ["16"],
+                    "blindbagCode": "21465"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Cherry Spices",
+                    "ponyNumber": 18,                    
+                    "imageName": "Wave 1/17_CherrySpices.jpg",
+                    "description": ["17"],
+                    "blindbagCode": "21475"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Sweetie Swirl",
+                    "ponyNumber": 19,                    
+                    "imageName": "Wave 1/18_SweetieSwirl.jpg",
+                    "description": ["18"],
+                    "blindbagCode": "21485"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Lucky Swirl",
+                    "ponyNumber": 20,                    
+                    "imageName": "Wave 1/19_LuckySwirl.jpg",
+                    "description": ["19"],
+                    "blindbagCode": "21495"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Sweetcream Scoops",
+                    "ponyNumber": 21,                    
+                    "imageName": "Wave 1/20_SweetcreamScoops.jpg",
+                    "description": ["20"],
+                    "blindbagCode": "22405"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Firecracker Burst",
+                    "ponyNumber": 22,                    
+                    "imageName": "Wave 1/21_FirecrackerBurst.jpg",
+                    "description": ["21"],
+                    "blindbagCode": "22415"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Pinkie Pie",
+                    "ponyNumber": 23,                    
+                    "imageName": "Wave 1/22_PinkiePie.jpg",
+                    "description": ["22","glittery/transparent"],
+                    "blindbagCode": "22425"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Twilight Sparkle",
+                    "ponyNumber": 24,                    
+                    "imageName": "Wave 1/23_TwilightSparkle.jpg",
+                    "description": ["23","glittery/transparent","pink variation","Euro Exclusive"],
+                    "blindbagCode": "22435"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Twilight Sparkle Alt",
+                    "ponyNumber": 25,                    
+                    "imageName": "Wave 1/23_TwilightSparkleAlt.jpg",
+                    "description": ["23","glittery/transparent","purple variation"],
+                    "blindbagCode": "22435"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Rainbow Dash",
+                    "ponyNumber": 25,                    
+                    "imageName": "Wave 1/24_RainbowDash.jpg",
+                    "description": ["24","glittery/transparent"],
+                    "blindbagCode": "22445"
+                }                 
             ]
         }
     ]

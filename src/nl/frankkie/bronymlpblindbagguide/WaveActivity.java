@@ -57,6 +57,9 @@ public class WaveActivity extends Activity {
                 viewGroup.findViewById(R.id.row_secondLine).setVisibility(View.GONE);
             } else {
                 StringBuilder sb = new StringBuilder();
+                if (pony.getBlindbagCode() != null && !"".equals(pony.getBlindbagCode())) {
+                    sb.append(pony.getBlindbagCode()).append("\n");
+                }
                 for (String s : pony.getDescription()) {
                     sb.append(s).append("\n");
                 }
@@ -64,7 +67,7 @@ public class WaveActivity extends Activity {
             }
             //
             CheckBox cb = (CheckBox) viewGroup.findViewById(R.id.row_checkbox);
-            cb.setChecked(prefs.getBoolean("w" + wave.getWaveNumber()+ "p" + ponyNr, false));
+            cb.setChecked(prefs.getBoolean("w" + wave.getWaveNumber() + "p" + ponyNr, false));
             cb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton compoundButton, boolean b) {

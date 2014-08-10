@@ -109,5 +109,4 @@ public class WavesActivity extends Activity {
             container.addView(viewGroup);
         }
     }
-
 }
