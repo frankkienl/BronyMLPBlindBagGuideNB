@@ -2,6 +2,9 @@
 <!--
 http://developer.android.com/guide/topics/data/install-location.html
 
+2.0:
+Switched to JSON based data-set.
+
 1.2:
 Changed App Icon, because of Google Play Store policy changes
 https://support.google.com/googleplay/android-developer/answer/6066610?rd=1
@@ -31,8 +34,8 @@ Removed redundant 'Settings' button
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nl.frankkie.bronymlpblindbagguide"
     android:installLocation="preferExternal"
-    android:versionCode="10"
-    android:versionName="1.2" >
+    android:versionCode="11"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -40,7 +43,6 @@ Removed redundant 'Settings' button
 
     <application
         android:allowBackup="true"
-        android:debuggable="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
@@ -53,7 +55,7 @@ Removed redundant 'Settings' button
             </intent-filter>
         </activity>
 
-        <activity android:name=".CodeActivity" />
+        <activity android:name=".WavesActivity" />
         <activity android:name=".WaveActivity" />
         <activity android:name=".CreditsActivity" />
         <activity android:name=".TutorialActivity" />

@@ -1,0 +1,29 @@
+{
+    "waves": [
+        {
+            "_type": "Wave",
+            "waveNumber": 1,
+            "waveName": "1",
+            "description": "",
+            "imageName": "Wave 1/cover.jpg",
+            "ponies": [
+                {
+                    "_type": "Pony",
+                    "ponyName": "Pinkie Pie",
+                    "ponyNumber": 1,                    
+                    "imageName": "Wave 1/01_PinkiePie.jpg",
+                    "description": [""],
+                    "blindbagCode": "20415"
+                },
+                {
+                    "_type": "Pony",
+                    "ponyName": "Applejack",
+                    "ponyNumber": 2,
+                    "imageName": "Wave 1/02_Applejack.jpg",
+                    "description": [""],
+                    "blindbagCode": "20425"                    
+                }
+            ]
+        }
+    ]
+}
