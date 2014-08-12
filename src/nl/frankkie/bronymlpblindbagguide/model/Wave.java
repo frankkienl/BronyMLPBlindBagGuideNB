@@ -1,8 +1,11 @@
 package nl.frankkie.bronymlpblindbagguide.model;
 
+import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
+import java.io.IOException;
 import java.util.Arrays;
+import nl.frankkie.bronymlpblindbagguide.CSVDeserializer;
 
 /**
  *
@@ -15,6 +18,26 @@ public class Wave implements Parcelable {
     String description;
     String imageName;
     Pony[] ponies;
+    String csvFile;
+    
+    /**
+     * Constructor for CSV Deserializer
+     * @param c context to access Assets.
+     * @param waveNumber
+     * @param waveName
+     * @param description
+     * @param imageName
+     * @param csvFile
+     * @throws IOException 
+     */
+    public Wave(Context c, int waveNumber, String waveName, String description, String imageName, String csvFile) throws IOException{
+        this.waveNumber = waveNumber;
+        this.waveName = waveName;
+        this.description = description;
+        this.imageName = imageName;
+        this.csvFile = csvFile;
+        ponies = CSVDeserializer.getPonies(c, csvFile);
+    }
 
     public int getWaveNumber(){
         return waveNumber;

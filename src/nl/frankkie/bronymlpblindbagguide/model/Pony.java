@@ -35,6 +35,22 @@ public class Pony implements Parcelable {
      */
     String blindbagCode;
 
+    /**
+     * Constructor for CSV Deserializer.
+     * @param ponyNumber id
+     * @param ponyName name
+     * @param imageName image
+     * @param description code and description
+     * @param blindbagCode blindbag code
+     */
+    public Pony(int ponyNumber, String ponyName, String imageName, String[] description, String blindbagCode) {
+        this.ponyNumber = ponyNumber;
+        this.ponyName = ponyName;
+        this.imageName = imageName;
+        this.description = description;
+        this.blindbagCode = blindbagCode;
+    }
+
     public String getPonyName() {
         return ponyName;
     }

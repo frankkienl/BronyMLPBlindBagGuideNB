@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import com.google.gson.Gson;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import nl.frankkie.bronymlpblindbagguide.model.Wave;
@@ -31,11 +32,47 @@ public class WavesActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        initWaves();
+        //initWavesJSON();
+        initWavesCSV();
         initUI();
     }
 
-    public void initWaves() {
+    /**
+     * Init waves
+     */
+    public void initWavesCSV() {
+        try {
+            Wave w1 = new Wave(this, /* context for Assets */
+                    1, /* waveNr */
+                    "1", /* waveName */ 
+                    "", /* description */
+                    "Wave 1/cover.jpg", /* image */
+                    "mlp-wave-1-blind-bag.csv"); /* data */
+            wavemanager = new WaveManager();
+            wavemanager.waves = new Wave[]{w1};
+        } catch (IOException e) {
+            //Its kinda a big deal when this happens!
+            e.printStackTrace();
+            //So let the user know.
+            AlertDialog.Builder b = new AlertDialog.Builder(this);
+            b.setTitle("Fatal Error");
+            b.setMessage("Data not found, contact developer of this app.\n" + e);
+            b.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+
+                public void onClick(DialogInterface dialog, int which) {
+                    //remove dialog
+                }
+            });
+        }
+    }
+
+    /**
+     * Init waves
+     *
+     * @deprecated now use CSV instead
+     */
+    @Deprecated
+    public void initWavesJSON() {
         Gson gson = new Gson();
         try {
             InputStream data = getAssets().open("data.json");
@@ -60,7 +97,8 @@ public class WavesActivity extends Activity {
     protected void onResume() {
         super.onResume();
         //re init, to show new progress !!
-        initWaves();
+        //initWavesJSON();
+        initWavesCSV();
         initUI();
     }
 
@@ -100,7 +138,7 @@ public class WavesActivity extends Activity {
                 @Override
                 public void onClick(View view) {
                     Intent intent = new Intent();
-                    intent.setClass(WavesActivity.this, WaveActivity.class);                    
+                    intent.setClass(WavesActivity.this, WaveActivity.class);
                     intent.putExtra("wave", w);
                     startActivity(intent);
                 }
