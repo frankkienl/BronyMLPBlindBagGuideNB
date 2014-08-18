@@ -2,47 +2,59 @@
 <resources>
 
     <string name="app_name">Brony MLP Blind Bag Guide</string>
+    <string name="main_welcome">My Little Pony G4 Blind Bag Guide\n
+        Created with info from the MLPMerch.com Blind Bag Database.\n
+        \n
+        Visit MLPMerch.com for the online Blind Bag Database and MLP merch news!</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="tut1">
-        Blind bags are small bags that contain 1 mini pony per bag.\n
-        They do not indicate by name which pony is in which bag because it is meant to be a surprise.\n
-        For those that hate surprises, the bags also have a number printed on them that allows you to figure out which pony is in which bag.
+        Did you know that you can predict what an MLP blind bag will contain without opening it?\n
+        We\'ll teach you all about it in this tutorial!\n
+        \n
+        Step 1: First you need to know which wave of blind bag you see in a store. In this app you can see which bag matches the one in your store.\n
+        \n
+        Step 2: Find the code on the blind bag (examples below):\n
+        - Wave 1-7 blind bags have a seam on the back of the blind bag with a code, this code is either 2 or 5 numbers long. When you have a 5-number code, only read the 2nd and 4th number: #80216 is #01 and #82206 is #20.\n
+        - Wave 8-11 blind bags have a 2-letter code on the bottom of the bag.\n
+        \n
+        Step 3: Use this app to see which pony of the selected wave matches the code!\n
+        \n
+        Here are 2 examples:
     </string>
     <string name="tut2">
-        Numbers can either be 1-2 digits or 5 digits.\n
-        For five digit numbers, just ignore the 1st, 3rd and 5th number and have the original index number.\n
-        For instance, number 20415 is really just #01 or #1, and 22445 is just #24.</string>
+        This Wave 5 blind bag has code #70192 (#09), which is Rainbow Dash!</string>
     <string name="tut3">
-        Wave 8 no longer printed number codes,\n
-        but instead has 2 digit letter codes stamped right below the \'www.mylittlepony.com\' print on the front of the bag.\n
-        The codes are AA-AZ, minus AJ and AQ.</string>
+        This Wave 9 blind bag has code AH, which is Shoeshine!</string>
     <string name="credits">
-        This application is made by FrankkieNL and Fluffikens.\n
-        The original (flash) application is made by Jaroslav Vozar.\n
+        This application is made by FrankkieNL, Fluffikens and MLPMerch.com.\n
+        The original (flash) applicaiton is made by Jaroslav Vozar.\n
+        \n
         Images by:\n
-        Remmy, Sarah G, Tropical_Sunset, Collec-Jcg, Strawberryreef.com, Hasbro, Mlp4merch.tumbler.com, Leddaq\n
+        MLPMerch.com, Elwyn, Breyer600, collec-jcg and StrawberryReef.\n
+        \n
         Links:\n
+        http://www.mlpmerch.com/p/mlp-blind-bag-database.html\n
         http://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136\n
-        http://www.strawberryreef.com/Index/G4/IndexBB.html\n
         http://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
     </string>
-    <string name="credits2">
-        This software is for informational purposes only.\n
-        and is intended to assist the pony collecting community.\n
-        Some images in this software are property of Hasbro and have been borrowed for non-profit use.\n
-        This software is not affiliated with Hasbro,\n
-        and their distinctive likenesses are trademarks of Hasbro, Inc. All rights reserved worldwide.\n
-        \n
-        My Little Pony: Friendship is Magic is copyrighted by Hasbro.
-    </string>
-    <string name="credits3">
-        Disclamer: We are not responsible for incorrect information.\n
-        We try to check all the information and make sure everything is correct.
-        But typo\'s can occur. And please keep in mind that not all waves are worldwide available.\n
-        \n
-        Thanks for using our application!\n
-        If you see mistakes or have feature-requests, please mail to:\n
-        frankkie.12345@gmail.com
-    </string>
+    
+    <!-- Wave Descriptions //-->
+    <string name="wave_1">Wave 1 contains 24 figures, 3 of which are transparent with glitter.</string>
+    <string name="wave_2">Wave 2 contains 24 figures, 3 of which are transparent with glitter. (EU Only)</string>
+    <string name="wave_3">Wave 3 contains 24 figures, 3 of which are glow in the dark.</string>
+    <string name="wave_4">Wave 4 contains 24 figures, 3 of which are metallic.</string>
+    <string name="wave_5">Wave 5 contains 24 figures.</string>
+    <string name="wave_6">Wave 6 contains 24 figures, 3 of which have gem cutie marks.</string>
+    <string name="wave_7">Wave 7 contains 24 figures, all of which are transparent with painted hair.</string>
+    <string name="wave_8">Wave 8 contains 24 figures, all of which are transparent (neon) with painted hair.</string>
+    <string name="wave_8a">Wave 8A contains 12 figures, all of which are transparent (neon) with painted hair. (UK Only)</string>
+    <string name="wave_8b">Wave 8B contains 12 figures, all of which are transparent (neon) with painted hair. (UK Only)</string>
+    <string name="wave_9">Wave 9 contains 24 figures, 3 of which are rainbowfied ponies.</string>
+    <string name="wave_9a">Wave 9A contains 12 figures, 1 of which is a rainbowfied pony. (UK Only)</string>
+    <string name="wave_9b">Wave 9B contains 12 figures, 2 of which are rainbowfied ponies. (UK Only)</string>
+    <string name="wave_10">Wave 10 contains 24 figures, all are transparent with painted hair and glitter.</string>
+    <string name="wave_10a">Wave 10A contains 12 figures, all are transparent with painted hair and glitter. (UK Only)</string>
+    <string name="wave_11">Wave 11 contains 24 figures.</string>
+    <string name="wave_collection_sets">Collection sets are special releases with a few figures, exclusive to a certain store.</string>
+    <string name="wave_mini_sets">Mini sets contain 3 to 6 characters based on a certain theme.</string>
 </resources>

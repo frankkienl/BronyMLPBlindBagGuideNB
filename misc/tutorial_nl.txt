@@ -1,0 +1,19 @@
+Wist je dat je kan voorspellen wat er in een blind bag zakje zit zonder hem open te maken?
+In deze handleiding leren we je er alles over!
+
+Stap 1: Om te weten welke serie (wave) het blind bag zakje is, kan je in deze app het zakje dat je ziet vergelijken met alle mogelijke series.
+
+Stap 2: Zoek de code op het blind bag zakje (voorbeelden onderaan de pagina):
+- Serie 1-7 zakjes hebben een naad aan de achterkant van het zakje met daar een code op van 2 of 5 cijfers.
+Bij een code van 5 cijfers hoef je alleen het 2e en 4e getal te lezen: #80216 is #01 en #82206 is #20.
+- Serie 8-11 zakjes hebben een 2 letterige code aan de onderkant van het zakje.
+
+Stap 3: Zoek in deze app de serie van het zakje en de code op het zakje om te weten te komen wat er in zit!
+
+Hier zijn 2 voorbeelden:
+
+(<- Hier afbeelding bagcode1.jpg)
+Dit serie 5 zakje heeft #70192 (#09) als code, dat is Rainbow Dash!
+
+(<- Hier afbeelding bagcode2.jpg)
+Dit serie 9 zakje heeft AH als code, en dat is Shoeshine!

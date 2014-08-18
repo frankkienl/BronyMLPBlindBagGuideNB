@@ -19,43 +19,44 @@ public class Wave implements Parcelable {
     String imageName;
     Pony[] ponies;
     String csvFile;
-    
+
     /**
      * Constructor for CSV Deserializer
+     *
      * @param c context to access Assets.
      * @param waveNumber
      * @param waveName
      * @param description
      * @param imageName
      * @param csvFile
-     * @throws IOException 
+     * @throws IOException
      */
-    public Wave(Context c, int waveNumber, String waveName, String description, String imageName, String csvFile) throws IOException{
+    public Wave(Context c, int waveNumber, String waveName, int description, String imageName, String csvFile) throws IOException {
         this.waveNumber = waveNumber;
         this.waveName = waveName;
-        this.description = description;
+        this.description = c.getString(description);
         this.imageName = imageName;
         this.csvFile = csvFile;
         ponies = CSVDeserializer.getPonies(c, csvFile);
     }
 
-    public int getWaveNumber(){
+    public int getWaveNumber() {
         return waveNumber;
     }
-    
+
     public String getWaveCover() {
         return imageName;
     }
-    
-    public String getWaveName(){
+
+    public String getWaveName() {
         return waveName;
     }
-    
-    public String getDescription(){
+
+    public String getDescription() {
         return description;
     }
-    
-    public Pony[] getPonies(){
+
+    public Pony[] getPonies() {
         return ponies;
     }
 

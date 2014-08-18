@@ -30,10 +30,6 @@ public class Pony implements Parcelable {
      * put the ponyNumber (of the IRL set) in description[0].
      */
     String[] description; //default
-    /**
-     * Code that appears on the IRL bag. This will appear on-screen.
-     */
-    String blindbagCode;
 
     /**
      * Constructor for CSV Deserializer.
@@ -43,12 +39,11 @@ public class Pony implements Parcelable {
      * @param description code and description
      * @param blindbagCode blindbag code
      */
-    public Pony(int ponyNumber, String ponyName, String imageName, String[] description, String blindbagCode) {
+    public Pony(int ponyNumber, String ponyName, String imageName, String[] description) {
         this.ponyNumber = ponyNumber;
         this.ponyName = ponyName;
         this.imageName = imageName;
         this.description = description;
-        this.blindbagCode = blindbagCode;
     }
 
     public String getPonyName() {
@@ -61,10 +56,6 @@ public class Pony implements Parcelable {
 
     public String[] getDescription() {
         return description;
-    }
-    
-    public String getBlindbagCode(){
-        return blindbagCode;
     }
 
     //<editor-fold desc="Parcelable" defaultstate="collapsed">
@@ -91,7 +82,6 @@ public class Pony implements Parcelable {
         ponyNumber = in.readInt();
         imageName = in.readString();
         description = in.createStringArray();
-        blindbagCode = in.readString();
     }
 
     public void writeToParcel(Parcel out, int flags) {
@@ -99,7 +89,6 @@ public class Pony implements Parcelable {
         out.writeInt(ponyNumber);
         out.writeString(imageName);
         out.writeStringArray(description);
-        out.writeString(blindbagCode);
     }
     //</editor-fold>
 }

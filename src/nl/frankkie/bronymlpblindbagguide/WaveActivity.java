@@ -36,6 +36,13 @@ public class WaveActivity extends Activity {
         Log.v("MLP", "Wave init done");
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        //try to clear the images from memory..
+        System.gc();
+    }    
+
     private void initUI() {
         setContentView(R.layout.activity_wave);
         //
@@ -47,7 +54,8 @@ public class WaveActivity extends Activity {
             final int ponyNr = i;
             ViewGroup viewGroup = (ViewGroup) inflater.inflate(R.layout.layout_row_ponies, container, false);
             try {
-                Drawable d = Drawable.createFromStream(getAssets().open(pony.getImageName()), null);
+                //Note: I prefix it here with images.
+                Drawable d = Drawable.createFromStream(getAssets().open("images/" + pony.getImageName()), null);
                 ((ImageView) viewGroup.findViewById(R.id.row_icon)).setImageDrawable(d);
             } catch (Exception e) {
                 //ignore
@@ -56,10 +64,7 @@ public class WaveActivity extends Activity {
             if (pony.getDescription() == null || pony.getDescription().length == 0) {
                 viewGroup.findViewById(R.id.row_secondLine).setVisibility(View.GONE);
             } else {
-                StringBuilder sb = new StringBuilder();
-                if (pony.getBlindbagCode() != null && !"".equals(pony.getBlindbagCode())) {
-                    sb.append(pony.getBlindbagCode()).append("\n");
-                }
+                StringBuilder sb = new StringBuilder();                
                 for (String s : pony.getDescription()) {
                     sb.append(s).append("\n");
                 }

@@ -7,10 +7,12 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.text.util.Linkify;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import java.util.Iterator;
 import java.util.Map;
@@ -31,6 +33,8 @@ public class MainActivity extends Activity {
 
     public void initUI() {
         setContentView(R.layout.activity_main);
+        TextView mainWelcome = (TextView) findViewById(R.id.main_tv);
+        Linkify.addLinks(mainWelcome, Linkify.ALL);
         findViewById(R.id.btn_codes).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

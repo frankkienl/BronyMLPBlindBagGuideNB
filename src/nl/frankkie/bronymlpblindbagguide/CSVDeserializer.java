@@ -26,22 +26,22 @@ public class CSVDeserializer {
         Pony[] ans = new Pony[0];
         InputStream inputStream = context.getAssets().open(file);
         CSVReader reader = new CSVReader(new InputStreamReader(inputStream), ';');
-        //Photo;Name;Comment;Code (Short);Code (Some Countries)
+        //Photo;Name;Comment
         String[] nextLine;
         int i = 0;
         while ((nextLine = reader.readNext()) != null) {
-            if (i==0){
+            if (i == 0) {
                 //Skip First one!!
                 i++;
                 continue;
             }
             // nextLine[] is an array of values from the line
+            String[] descriptionTemp = nextLine[2].split("\\|");
             Pony p = new Pony(
                     i++, /* id */
                     nextLine[1], /* name */
                     nextLine[0], /* image */
-                    new String[]{nextLine[3],/* irl nr */ nextLine[2] /* desc */},
-                    nextLine[4] /* blindbag code */
+                    descriptionTemp
             );
             ponies.add(p);
         }

@@ -1,0 +1,18 @@
+Did you know that you can predict what an MLP blind bag will contain without opening it?
+We'll teach you all about it in this tutorial!
+
+Step 1: First you need to know which wave of blind bag you see in a store. In this app you can see which bag matches the one in your store.
+
+Step 2: Find the code on the blind bag (examples below):
+- Wave 1-7 blind bags have a seam on the back of the blind bag with a code, this code is either 2 or 5 numbers long. When you have a 5-number code, only read the 2nd and 4th number: #80216 is #01 and #82206 is #20.
+- Wave 8-11 blind bags have a 2-letter code on the bottom of the bag.
+
+Step 3: Use this app to see which pony of the selected wave matches the code!
+
+Here are 2 examples:
+
+(<- Hier afbeelding bagcode1.jpg)
+This Wave 5 blind bag has code #70192 (#09), which is Rainbow Dash!
+
+(<- Hier afbeelding bagcode2.jpg)
+This Wave 9 blind bag has code AH, which is Shoeshine!
