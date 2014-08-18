@@ -49,8 +49,8 @@ My Little Pony: Friendship is Magic is copyrighted by Hasbro.
 Screenshots (Spoilers):
 =======================
 
-![Screenshot](https://raw.github.com/frankkienl/BronyMLPBlindBagGuide/master/screenshots/device-2013-09-15-133331.png "Screenshot")
+![Screenshot](https://raw.github.com/frankkienl/BronyMLPBlindBagGuide/master/other/screenshots/device-2013-09-15-133331.png "Screenshot")
 
-![Screenshot](https://raw.github.com/frankkienl/BronyMLPBlindBagGuide/master/screenshots/device-2013-09-15-133352.png "Screenshot")
+![Screenshot](https://raw.github.com/frankkienl/BronyMLPBlindBagGuide/master/other/screenshots/device-2013-09-15-133352.png "Screenshot")
 
-![Screenshot](https://raw.github.com/frankkienl/BronyMLPBlindBagGuide/master/screenshots/device-2013-09-15-133518.png "Screenshot")
+![Screenshot](https://raw.github.com/frankkienl/BronyMLPBlindBagGuide/master/other/screenshots/device-2013-09-15-133518.png "Screenshot")
