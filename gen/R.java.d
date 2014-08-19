@@ -16,7 +16,6 @@ E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\menu\main.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\styles.xml \
-E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\values-fr \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-nl\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw600dp\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw720dp-land\dimens.xml \

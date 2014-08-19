@@ -3,39 +3,39 @@
 
     <string name="app_name">Brony MLP Blind Bag Guide</string>
     <string name="main_welcome">My Little Pony G4 Blind Bag Guide\n
-        Created with info from the MLPMerch.com Blind Bag Database.\n
-        \n
-        Visit MLPMerch.com for the online Blind Bag Database and MLP merch news!</string>
+Created with info from the MLPMerch.com Blind Bag Database.\n
+\n
+Visit MLPMerch.com for the online Blind Bag Database and MLP merch news!</string>
     <string name="action_settings">Settings</string>
     <string name="tut1">
-        Did you know that you can predict what an MLP blind bag will contain without opening it?\n
-        We\'ll teach you all about it in this tutorial!\n
-        \n
-        Step 1: First you need to know which wave of blind bag you see in a store. In this app you can see which bag matches the one in your store.\n
-        \n
-        Step 2: Find the code on the blind bag (examples below):\n
-        - Wave 1-7 blind bags have a seam on the back of the blind bag with a code, this code is either 2 or 5 numbers long. When you have a 5-number code, only read the 2nd and 4th number: #80216 is #01 and #82206 is #20.\n
-        - Wave 8-11 blind bags have a 2-letter code on the bottom of the bag.\n
-        \n
-        Step 3: Use this app to see which pony of the selected wave matches the code!\n
-        \n
-        Here are 2 examples:
+Did you know that you can predict what an MLP blind bag will contain without opening it?\n
+We\'ll teach you all about it in this tutorial!\n
+\n
+Step 1: First you need to know which wave of blind bag you see in a store. In this app you can see which bag matches the one in your store.\n
+\n
+Step 2: Find the code on the blind bag (examples below):\n
+- Wave 1-7 blind bags have a seam on the back of the blind bag with a code, this code is either 2 or 5 numbers long. When you have a 5-number code, only read the 2nd and 4th number: #80216 is #01 and #82206 is #20.\n
+- Wave 8-11 blind bags have a 2-letter code on the bottom of the bag.\n
+\n
+Step 3: Use this app to see which pony of the selected wave matches the code!\n
+\n
+Here are 2 examples:
     </string>
     <string name="tut2">
-        This Wave 5 blind bag has code #70192 (#09), which is Rainbow Dash!</string>
+This Wave 5 blind bag has code #70192 (#09), which is Rainbow Dash!</string>
     <string name="tut3">
-        This Wave 9 blind bag has code AH, which is Shoeshine!</string>
+This Wave 9 blind bag has code AH, which is Shoeshine!</string>
     <string name="credits">
-        This application is made by FrankkieNL, Fluffikens and MLPMerch.com.\n
-        The original (flash) applicaiton is made by Jaroslav Vozar.\n
-        \n
-        Images by:\n
-        MLPMerch.com, Elwyn, Breyer600, collec-jcg and StrawberryReef.\n
-        \n
-        Links:\n
-        http://www.mlpmerch.com/p/mlp-blind-bag-database.html\n
-        http://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136\n
-        http://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+This application is made by FrankkieNL, Fluffikens and MLPMerch.com.\n
+The original (flash) applicaiton is made by Jaroslav Vozar.\n
+\n
+Images by:\n
+MLPMerch.com, Elwyn, Breyer600, collec-jcg and StrawberryReef.\n
+\n
+Links:\n
+http://www.mlpmerch.com/p/mlp-blind-bag-database.html\n
+http://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136\n
+http://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
     </string>
     
     <!-- Import and Export //-->
@@ -50,7 +50,7 @@
     <!-- Welcome Screen //-->
     <string name="welcome_title">Welcome !</string>
     <string name="welcome_message">This application has been updated!\nFrankkieNL is now collaborating with MLPMerch.com to provide the most up-to-date Blind Bag information!</string>
-                
+
     <!-- Wave Descriptions //-->
     <string name="wave_1">Wave 1 contains 24 figures, 3 of which are transparent with glitter.</string>
     <string name="wave_2">Wave 2 contains 24 figures, 3 of which are transparent with glitter. (EU Only)</string>
