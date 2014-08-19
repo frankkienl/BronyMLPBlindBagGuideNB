@@ -38,6 +38,19 @@
         http://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
     </string>
     
+    <!-- Import and Export //-->
+    <string name="error">Error</string>
+    <!-- note 2 self: 'import' is a reserved keyword //-->
+    <string name="data_import">Import</string>
+    <string name="data_export">Export</string>
+    <string name="data_import_paste">Import, paste here</string>
+    <string name="data_import_error">Import Error\nPlease check the data and try again.</string>
+    <string name="data_import_done">Import done</string>
+    
+    <!-- Welcome Screen //-->
+    <string name="welcome_title">Welcome !</string>
+    <string name="welcome_message">This application has been updated!\nFrankkieNL is now collaborating with MLPMerch.com to provide the most up-to-date Blind Bag information!</string>
+                
     <!-- Wave Descriptions //-->
     <string name="wave_1">Wave 1 contains 24 figures, 3 of which are transparent with glitter.</string>
     <string name="wave_2">Wave 2 contains 24 figures, 3 of which are transparent with glitter. (EU Only)</string>

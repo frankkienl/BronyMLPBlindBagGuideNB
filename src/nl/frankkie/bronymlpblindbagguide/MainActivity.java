@@ -14,10 +14,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import java.util.Iterator;
+import au.com.bytecode.opencsv.CSVReader;
+import java.io.IOException;
+import java.io.StringReader;
 import java.util.Map;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 /**
  *
@@ -29,6 +29,37 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initUI();
+        showWelcome();
+    }
+
+    public void showWelcome() {
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        if (!prefs.getBoolean("seen", false)) {
+            fixWave8b();
+            //
+            prefs.edit().putBoolean("seen", true).commit();
+            AlertDialog.Builder b = new AlertDialog.Builder(this);
+            b.setTitle(R.string.welcome_title);
+            b.setMessage(R.string.welcome_message);
+            b.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+
+                public void onClick(DialogInterface dialog, int which) {
+                    //remove dialog
+                }
+            });
+            b.create().show();
+        }
+    }
+
+    public void fixWave8b() {
+        //updating? remove data from Wave 8B, because thats now incorrect
+        //installing for the first time? no data, no harm
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor edit = prefs.edit();
+        for (int i = 1; i <= 12; i++) {
+            edit.remove("w82p" + i);
+        }
+        edit.commit();
     }
 
     public void initUI() {
@@ -64,30 +95,22 @@ public class MainActivity extends Activity {
     public void exportData() {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         Map<String, ?> all = prefs.getAll();
-        JSONObject jsonObject = new JSONObject();
+        StringBuilder sb = new StringBuilder();//export to CSV
+        //Write CSV-header line
+        sb.append("Key;Value\n");
         //http://stackoverflow.com/questions/46898/how-do-i-iterate-over-each-entry-in-a-map
         for (Map.Entry<String, ?> entry : all.entrySet()) {
-            try {
-                if (!Boolean.parseBoolean(entry.getValue().toString())) {
-                    //ignore false, save space.
-                    continue;
-                }
-                jsonObject.put(entry.getKey(), entry.getValue());
-            } catch (JSONException e) {
-                e.printStackTrace();
+            if (!Boolean.parseBoolean(entry.getValue().toString())) {
+                //ignore false, save space.
+                continue;
             }
-        }
-        String jsonData = "";
-        try {
-            jsonData = jsonObject.toString(2);
-        } catch (JSONException ex) {
-            ex.printStackTrace();
+            sb.append(entry.getKey()).append(";").append(entry.getValue()).append("\n");
         }
         //http://stackoverflow.com/questions/9948373/android-share-plain-text-using-intent-to-all-messaging-apps
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
         sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Blindbag Data");
-        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, jsonData);
+        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, sb.toString());
         try {
             startActivity(Intent.createChooser(sharingIntent, "Export Blindbag Data"));
         } catch (Exception e) {
@@ -97,16 +120,16 @@ public class MainActivity extends Activity {
 
     public void importData() {
         AlertDialog.Builder b = new AlertDialog.Builder(this);
-        b.setTitle("Import Data, paste here");
+        b.setTitle(R.string.data_import_paste);
         final EditText ed = new EditText(this);
         b.setView(ed);
-        b.setPositiveButton("Import", new DialogInterface.OnClickListener() {
+        b.setPositiveButton(R.string.data_import, new DialogInterface.OnClickListener() {
 
             public void onClick(DialogInterface dialog, int which) {
-                importJson(ed.getText().toString());
+                importCsv(ed.getText().toString());
             }
         });
-        b.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        b.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
 
             public void onClick(DialogInterface dialog, int which) {
                 //dismiss dialog
@@ -115,25 +138,45 @@ public class MainActivity extends Activity {
         b.create().show();
     }
 
-    public void importJson(String json) {
+    public void importCsv(String csv) {
+        CSVReader reader = new CSVReader(new StringReader(csv), ';');
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        String[] nextLine;
+        int i = 0;
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.clear();
         try {
-            JSONObject jSONObject = new JSONObject(json);
-            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-            prefs.edit().clear();
-            Iterator it = jSONObject.keys();
-            while (it.hasNext()) {
+            while ((nextLine = reader.readNext()) != null) {
+                if (i == 0) {
+                    //Skip First one!!
+                    //Thats the Header-line
+                    i++;
+                    continue;
+                }
                 //they only contain 'true', false has been removed in the export fase.
-                prefs.edit().putBoolean(it.next().toString(), true);
+                editor.putBoolean(nextLine[0], true /*Boolean.getBoolean(nextLine[1])*/);
             }
-        } catch (JSONException e) {
-            Toast.makeText(this, "Incorrect data, import failed", Toast.LENGTH_LONG).show();
+            editor.commit();
+            Toast.makeText(this, R.string.data_import_done, Toast.LENGTH_LONG).show();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            AlertDialog.Builder b = new AlertDialog.Builder(this);
+            b.setTitle(R.string.error);
+            b.setMessage(R.string.data_import_paste);
+            b.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+
+                public void onClick(DialogInterface dialog, int which) {
+                    //remove dialog
+                }
+            });
+            b.create().show();
         }
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(0, 0, 0, "Export data");
-        menu.add(0, 1, 0, "Import data");
+        menu.add(0, 0, 0, getString(R.string.data_export));
+        menu.add(0, 1, 0, getString(R.string.data_import));
         return true;
     }
 

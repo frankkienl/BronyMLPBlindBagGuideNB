@@ -1,0 +1,25 @@
+{
+    "tag": "bronymlpblindbagguide",
+    "opensource": true,
+    "opensource_link": "https://github.com/frankkienl/BronyMLPBlindBagGuide",
+    "app": {
+        "name": "Brony MLP Blind Bag Guide",
+        "type": "Android",
+        "packagename": "nl.frankkie.bronymlpblindbagguide",
+        "version_code": "10",
+        "version_name": "1.2",
+        "date_lastmod": "27-7-2014",
+        "link": "http://frankkie.nl/pony/",
+        "details": "Application that can help identify ponies in Blind Bags (no internet needed)",
+        "pic": "https://raw.githubusercontent.com/frankkienl/BronyMLPBlindBagGuide/master/ic_launcher-web.png"
+    },
+    "stores": {
+        "googleplay": true,
+        "amazonapp": false,
+        "samsungapps": false,
+        "slideme": false,
+        "slideme_link": "",
+        "frankkienl": false,
+        "frankkienl_dl": ""
+    }
+}

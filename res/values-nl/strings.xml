@@ -38,4 +38,38 @@
         http://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136\n
         http://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
     </string>
+    
+    <!-- Import and Export //-->
+    <string name="error">Foutmelding</string>
+    <!-- note 2 self: 'import' is a reserved keyword //-->
+    <string name="data_import">Importeren</string>
+    <string name="data_export">Exporteren</string>
+    <string name="data_import_paste">Importeren, plak hier</string>
+    <string name="data_import_error">Importeer fout\nControleer de data en probeer opnieuw.</string>
+    <string name="data_import_done">Importeren is klaar</string>
+    
+    <!-- Welcome Screen //-->
+    <string name="welcome_title">Welkom !</string>
+    <string name="welcome_message">Deze applicatie is geupdate!\nFrankkieNL werkt nu samen met MLPMerch.com om de meeste recente Blind Bag informatie te kunnen leveren!</string>
+                
+    <!-- Wave Descriptions //-->
+    <string name="wave_1">Wave 1 bevat 24 figuren, 3 daarvan zijn transparant met glitter.</string>
+    <string name="wave_2">Wave 2 bevat 24 figuren, 3 daarvan zijn transparant met glitter. (EU Only)</string>
+    <string name="wave_3">Wave 3 bevat 24 figuren, 3 daarvan zijn glow in the dark.</string>
+    <string name="wave_4">Wave 4 bevat 24 figuren, 3 daarvan zijn metallic.</string>
+    <string name="wave_5">Wave 5 bevat 24 figuren.</string>
+    <string name="wave_6">Wave 6 bevat 24 figuren, 3 daarvan hebben een gem cutie marks.</string>
+    <string name="wave_7">Wave 7 bevat 24 figuren, transparant met geschilderd haar.</string>
+    <string name="wave_8">Wave 8 bevat 24 figuren, transparant (neon) met geschilderd haar.</string>
+    <string name="wave_8a">Wave 8A bevat 12 figuren, transparant (neon) met geschilderd haar. (UK Only)</string>
+    <string name="wave_8b">Wave 8B bevat 12 figuren, transparant (neon) met geschilderd haar. (UK Only)</string>
+    <string name="wave_9">Wave 9 bevat 24 figuren, 3 daarvan zijn rainbowfied ponies.</string>
+    <string name="wave_9a">Wave 9A bevat 12 figuren, 1 daarvan is een rainbowfied pony. (UK Only)</string>
+    <string name="wave_9b">Wave 9B bevat 12 figuren, 2 daarvan zijn rainbowfied ponies. (UK Only)</string>
+    <string name="wave_10">Wave 10 bevat 24 figuren, transparant met geschilderd haar en glitter.</string>
+    <string name="wave_10a">Wave 10A bevat 12 figuren, transparant met geschilderd haar en glitter. (UK Only)</string>
+    <string name="wave_11">Wave 11 bevat 24 figuren.</string>
+    <string name="wave_collection_sets">Collection sets zijn speciale releases met een paar figuren, exclusief voor een bepaalde winkel.</string>
+    <string name="wave_mini_sets">Mini sets bevatten 3 tot 6 figuren gebaseerd op een bepaald thema.</string>
+
 </resources>
