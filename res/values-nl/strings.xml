@@ -2,41 +2,41 @@
 <resources>
 
     <string name="app_name">Brony MLP Blind Bag Helper</string>
-    <string name="main_welcome">My Little Pony G4 Blind Bag Helper\n
-Gemaakt met informatie van de MLPMerch.com Blind Bag Database.\n
+    <string name="main_welcome">My Little Pony G4 Blind Bag Helper
+\nGemaakt met informatie van de MLPMerch.com Blind Bag Database.
 \n
-Bezoek MLPMerch.com voor de online Blind Bag Database en MLP merch nieuws!</string>
+\nBezoek MLPMerch.com voor de online Blind Bag Database en MLP merch nieuws!</string>
     <string name="action_settings">Settings</string>
     <string name="tut1">
-Wist je dat je kan voorspellen wat er in een blind bag zakje zit zonder hem open te maken?\n
-In deze handleiding leren we je er alles over!\n
+Wist je dat je kan voorspellen wat er in een blind bag zakje zit zonder hem open te maken?
+\nIn deze handleiding leren we je er alles over!
 \n
-Stap 1: Om te weten welke serie (wave) het blind bag zakje is, kan je in deze app het zakje dat je ziet vergelijken met alle mogelijke series.\n
+\nStap 1: Om te weten welke serie (wave) het blind bag zakje is, kan je in deze app het zakje dat je ziet vergelijken met alle mogelijke series.
 \n
-Stap 2: Zoek de code op het blind bag zakje (voorbeelden onderaan de pagina):\n
-- Serie 1-7 zakjes hebben een naad aan de achterkant van het zakje met daar een code op van 2 of 5 cijfers.\n
-Bij een code van 5 cijfers hoef je alleen het 2e en 4e getal te lezen: #80216 is #01 en #82206 is #20.\n
-- Serie 8-11 zakjes hebben een 2 letterige code aan de onderkant van het zakje.\n
+\nStap 2: Zoek de code op het blind bag zakje (voorbeelden onderaan de pagina):
+\n- Serie 1-7 zakjes hebben een naad aan de achterkant van het zakje met daar een code op van 2 of 5 cijfers.
+\nBij een code van 5 cijfers hoef je alleen het 2e en 4e getal te lezen: #80216 is #01 en #82206 is #20.
+\n- Serie 8-11 zakjes hebben een 2 letterige code aan de onderkant van het zakje.
 \n
-Stap 3: Zoek in deze app de serie van het zakje en de code op het zakje om te weten te komen wat er in zit!\n
+\nStap 3: Zoek in deze app de serie van het zakje en de code op het zakje om te weten te komen wat er in zit!
 \n
-Hier zijn 2 voorbeelden:
+\nHier zijn 2 voorbeelden:
     </string>
     <string name="tut2">
 Dit serie 5 zakje heeft #70192 (#09) als code, dat is Rainbow Dash!</string>
     <string name="tut3">
 Dit serie 9 zakje heeft AH als code, en dat is Shoeshine!</string>
     <string name="credits">
-Deze app is gemaakt door FrankkieNL, Fluffikens and MLPMerch.com.\n
-De originele (flash) applicatie is gemaakt door Jaroslav Vozar.\n
+Deze app is gemaakt door FrankkieNL, Fluffikens and MLPMerch.com.
+\nDe originele (flash) applicatie is gemaakt door Jaroslav Vozar.
 \n
-Afbeeldingen van:\n
-MLPMerch.com, Elwyn, Breyer600, collec-jcg en StrawberryReef.\n
+\nAfbeeldingen van:
+\nMLPMerch.com, Elwyn, Breyer600, collec-jcg en StrawberryReef.
 \n
-Links:\n
-http://www.mlpmerch.com/p/mlp-blind-bag-database.html\n
-http://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136\n
-http://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+\nLinks:
+\nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
+\nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
+\nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
     </string>
     
     <!-- Import and Export //-->

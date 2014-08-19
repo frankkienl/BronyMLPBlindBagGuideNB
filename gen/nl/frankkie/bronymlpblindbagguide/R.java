@@ -51,6 +51,8 @@ public final class R {
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
+        /**  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
+         */
         public static final int app_name=0x7f050000;
         public static final int credits=0x7f050006;
         public static final int data_export=0x7f050009;
