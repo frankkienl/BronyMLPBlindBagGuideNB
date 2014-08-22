@@ -1,5 +1,8 @@
 package nl.frankkie.bronymlpblindbagguide;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -8,6 +11,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import nl.frankkie.bronymlpblindbagguide.model.Wave;
+import nl.frankkie.bronymlpblindbagguide.model.WaveManager;
 
 /**
  *
@@ -96,5 +101,40 @@ public class Util {
         } finally {
             output.close();
         }
+    }
+
+    /**
+     * Init waves
+     * @return WaveManager which contains Waves.
+     */
+    public static WaveManager initWavesCSV(Context context) throws IOException {
+        Wave w1 = new Wave(
+                context, /* context for Assets */
+                1, /* waveNr */
+                "Wave 1", /* waveName */
+                R.string.wave_1, /* description */
+                "covers/mlp-wave-1-blind-bag.jpg", /* image */
+                "data/wave-1.csv" /* data */
+        );
+        Wave w2 = new Wave(context, 2, "Wave 2", R.string.wave_2, "covers/mlp-wave-2-blind-bag.jpg", "data/wave-2.csv");
+        Wave w3 = new Wave(context, 3, "Wave 3", R.string.wave_3, "covers/mlp-wave-3-blind-bag.jpg", "data/wave-3.csv");
+        Wave w4 = new Wave(context, 4, "Wave 4", R.string.wave_4, "covers/mlp-wave-4-blind-bag.jpg", "data/wave-4.csv");
+        Wave w5 = new Wave(context, 5, "Wave 5", R.string.wave_5, "covers/mlp-wave-5-blind-bag.jpg", "data/wave-5.csv");
+        Wave w6 = new Wave(context, 6, "Wave 6", R.string.wave_6, "covers/mlp-wave-6-blind-bag.jpg", "data/wave-6.csv");
+        Wave w7 = new Wave(context, 7, "Wave 7", R.string.wave_7, "covers/mlp-wave-7-blind-bag.jpg", "data/wave-7.csv");
+        Wave w8 = new Wave(context, 8, "Wave 8", R.string.wave_8, "covers/mlp-wave-8-blind-bag.jpg", "data/wave-8.csv");
+        Wave w8a = new Wave(context, 81, "Wave 8a", R.string.wave_8a, "covers/mlp-wave-8a-uk-blind-bag.jpg", "data/wave-8a.csv");
+        Wave w8b = new Wave(context, 82, "Wave 8b", R.string.wave_8b, "covers/mlp-wave-8b-uk-blind-bag.jpg", "data/wave-8b.csv");
+        Wave w9 = new Wave(context, 9, "Wave 9", R.string.wave_9, "covers/mlp-wave-9-blind-bag.jpg", "data/wave-9.csv");
+        Wave w9a = new Wave(context, 91, "Wave 9a", R.string.wave_9a, "covers/mlp-wave-9a-uk-blind-bag.jpg", "data/wave-9a.csv");
+        Wave w9b = new Wave(context, 92, "Wave 9b", R.string.wave_9b, "covers/mlp-wave-9b-uk-blind-bag.jpg", "data/wave-9b.csv");
+        Wave w10 = new Wave(context, 10, "Wave 10", R.string.wave_10, "covers/mlp-wave-10-blind-bag.jpg", "data/wave-10.csv");
+        Wave w10a = new Wave(context, 101, "Wave 10a", R.string.wave_10a, "covers/mlp-wave-10a-uk-blind-bag.jpg", "data/wave-10.csv");
+        Wave w11 = new Wave(context, 11, "Wave 11", R.string.wave_11, "covers/mlp-wave-11-blind-bag.jpg", "data/wave-11.csv");
+        Wave collectionSets = new Wave(context, 9001, "Collection Sets", R.string.wave_collection_sets, "covers/mlp-collection-sets-blind-bag.jpg", "data/collection-sets.csv");
+        Wave miniSets = new Wave(context, 9002, "Mini Sets", R.string.wave_mini_sets, "covers/mlp-mini-sets-blind-bag.jpg", "data/mini-sets.csv");
+        WaveManager wavemanager = new WaveManager();
+        wavemanager.waves = new Wave[]{w1, w2, w3, w4, w5, w6, w7, w8, w8a, w8b, w9, w9a, w9b, w10, w10a, w11, collectionSets, miniSets};
+        return wavemanager;
     }
 }

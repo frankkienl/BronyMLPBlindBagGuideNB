@@ -12,6 +12,7 @@ E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\activity_tutorial.xml
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\activity_wave.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\layout_row.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\layout_row_ponies.xml \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\waves.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\menu\main.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\strings.xml \
