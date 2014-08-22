@@ -45,6 +45,7 @@ public final class R {
         public static final int activity_with_listview=0x7f030004;
         public static final int layout_row=0x7f030005;
         public static final int layout_row_ponies=0x7f030006;
+        public static final int waves=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -52,11 +53,13 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050002;
         /**  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
+ http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
          */
         public static final int app_name=0x7f050000;
         public static final int credits=0x7f050006;
         public static final int data_export=0x7f050009;
         /**  note 2 self: 'import' is a reserved keyword //
+ note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //
          */
         public static final int data_import=0x7f050008;
@@ -65,6 +68,7 @@ public final class R {
         public static final int data_import_paste=0x7f05000a;
         /**  Import and Export //
  Import and Export //
+ Import and Export //
          */
         public static final int error=0x7f050007;
         public static final int main_welcome=0x7f050001;
@@ -72,6 +76,7 @@ public final class R {
         public static final int tut2=0x7f050004;
         public static final int tut3=0x7f050005;
         /**  Wave Descriptions //
+ Wave Descriptions //
  Wave Descriptions //
          */
         public static final int wave_1=0x7f05000f;
@@ -94,6 +99,7 @@ public final class R {
         public static final int wave_mini_sets=0x7f050020;
         public static final int welcome_message=0x7f05000e;
         /**  Welcome Screen //
+ Welcome Screen //
  Welcome Screen //
          */
         public static final int welcome_title=0x7f05000d;

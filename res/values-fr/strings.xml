@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
+    <string name="app_name">Brony MLP Blind Bag Guide</string>
+    <string name="main_welcome">My Little Pony G4 Blind Bag Guide
+\nCréé à partir des informations de la base de donnée de blind bags de MLPMerch.com.
+\n
+\nVistez MLPMerch.com pour consulter la base de donnée de bling bags en ligne et se tenir informé sur les marchandises !</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="tut1">
+Saviez-vous que vous pouviez prédire ce que contient un blind bag MLP sans l\'ouvrir ?
+\nOn vous tout vous expliquer dans ce tutoriel !
+\n
+\nEtape 1: Pour commencer, vous devez connaître quelle vague de blind bag vous voyez dans le magasin. Avec cette application, vous pouvez voir lesquels correspondent avec ceux du magasin.
+\n
+\nEtape 2: Trouvez le code sur le blind bag (exemple en dessous):
+\n- Les blind bags des vagues 1 à 7 ont une soudure au dos du sachet avec un code, ce code fait soit 2, soit 5 chiffres. Quand vous avez le code à 5 chiffres, ne lisez que le 2ème et le 4ème chiffre: #80216 est #01 et #82206 est #20.
+\n- Les blind bags des vagues 8 à 11 ont un code de 2 lettres sur le bas du sachet.
+\n
+Etape 3: utilisez cette application pour voir quel poney de la vague correspond au code !
+\n
+\nVoici 2 exemples :
+    </string>
+    <string name="tut2">
+Ce blind bag de la vague 5 a le code #70192 (#09), qui est Rainbow Dash!</string>
+    <string name="tut3">
+Ce blind bag de la vague 9 a le code AH, qui est Shoeshine!</string>
+    <string name="credits">
+Cette application est faite par FrankkieNL, Fluffikens et MLPMerch.com.
+\nL\'application originale (en flash) est faite par Jaroslav Vozar.
+\n
+\nImages par:\n
+\nMLPMerch.com, Elwyn, Breyer600, collec-jcg et StrawberryReef.
+\n
+\Liens:
+\nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
+\nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
+\nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+    </string>
+    
+    <!-- Import and Export //-->
+    <string name="error">Erreur</string>
+    <!-- note 2 self: 'import' is a reserved keyword //-->
+    <string name="data_import">Importation</string>
+    <string name="data_export">Exportation</string>
+    <string name="data_import_paste">Importation, collez ici</string>
+    <string name="data_import_error">Erreur d\'importation\nVeuillez vérifier les données et réessayez.</string>
+    <string name="data_import_done">Importation faite</string>
+    
+    <!-- Welcome Screen //-->
+    <string name="welcome_title">Bienvenue !</string>
+    <string name="welcome_message">Cette application a été mise à jour!\nFrankkieNL collabore désormais avec MLPMerch.com pour fournir les dernières informations à jour sur les Blind Bags!</string>
+
+    <!-- Wave Descriptions //-->
+    <string name="wave_1">La vague 1 contient 24 figurines, 3 d\'entre elles sont transparentes avec des paillettes.</string>
+    <string name="wave_2">La vague 2 contient 24 figurines, 3 d\'entre elles sont transparentes avec des paillettes. (Europe seulement)</string>
+    <string name="wave_3">La vague 3 contient 24 figurines, 3 d\'entre elles brillent dans le noir.</string>
+    <string name="wave_4">La vague 4 contient 24 figurines, 3 d\'entre elles sont métalliques.</string>
+    <string name="wave_5">La vague 5 contient 24 figurines.</string>
+    <string name="wave_6">La vague 6 contient 24 figurines, 3 d\'entre elles ont des cutie mark en gemme.</string>
+    <string name="wave_7">La vague 7 contient 24 figurines, toutes sont transparentes avec des cheveux peints.</string>
+    <string name="wave_8">La vague 8 contient 24 figurines, toutes sont transparentes (néon) avec des cheveux peints.</string>
+    <string name="wave_8a">La vague 8A contient 12 figurines, toutes sont transparentes (néon) avec des cheveux peints. (UK seulement)</string>
+    <string name="wave_8b">La vague 8B contient 12 figurines, toutes sont transparentes (néon) avec des cheveux peints. (UK seulement)</string>
+    <string name="wave_9">La vague 9 contient 24 figurines, 3 d\'entre elles sont aux couleurs de l\'arc en ciel.</string>
+    <string name="wave_9a">La vague 9A contient 12 figurines, 1 d\'entre elles est aux couleurs de l\'arc en ciel. (UK seulement)</string>
+    <string name="wave_9b">La vague 9B contient 12 figurines, 2 d\'entre elles sont aux couleurs de l\'arc en ciel. (UK seulement)</string>
+    <string name="wave_10">La vague 10 contient 24 figurines, toutes sont transparentes avec les cheuveux peints et avec des paillettes.</string>
+    <string name="wave_10a">La vague 10A contient 12 figurines, toutes sont transparentes avec les cheuveux peints et avec des paillettes. (UK seulement)</string>
+    <string name="wave_11">La vague 11 contient 24 figurines.</string>
+    <string name="wave_collection_sets">Les sets de collection sont des sorties spéciales avec peu de figurines, exclusives à certains magasins.</string>
+    <string name="wave_mini_sets">Les mini sets contiennent 3 à 6 personnages basés sur certains thèmes.</string>
+</resources>

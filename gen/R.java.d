@@ -12,10 +12,12 @@ E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\activity_tutorial.xml
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\activity_with_listview.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\layout_row.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\layout_row_ponies.xml \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\layout\waves.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\menu\main.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\styles.xml \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-fr\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-nl\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw600dp\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw720dp-land\dimens.xml \
