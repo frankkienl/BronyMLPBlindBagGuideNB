@@ -34,7 +34,7 @@ public class WaveActivity extends ListActivity {
         }
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         initUI();
-        Log.v("MLP", "Wave init done");
+        Log.v("MLP", "Wave init done");     
     }
     
     public void initUI(){

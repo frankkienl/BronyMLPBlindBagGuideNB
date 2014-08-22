@@ -4,7 +4,6 @@ import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 import java.io.IOException;
-import java.util.Arrays;
 import nl.frankkie.bronymlpblindbagguide.CSVDeserializer;
 
 /**
@@ -86,8 +85,11 @@ public class Wave implements Parcelable {
         imageName = in.readString();
         //http://stackoverflow.com/questions/10071502/read-writing-arrays-of-parcelable-objects
         Parcelable[] parcelableArray = in.readParcelableArray(this.getClass().getClassLoader());
-        if (parcelableArray != null) {
-            ponies = Arrays.copyOf(parcelableArray, parcelableArray.length, Pony[].class);
+        if (parcelableArray != null) {            
+            //ponies = Arrays.copyOf(parcelableArray, parcelableArray.length, Pony[].class);
+            //Array.copyOf is API9+, we support 7+, do it with System.arrayCopy instead. (#9)
+            ponies = new Pony[parcelableArray.length];
+            System.arraycopy(parcelableArray, 0, ponies, 0, parcelableArray.length);
         }
     }
 
