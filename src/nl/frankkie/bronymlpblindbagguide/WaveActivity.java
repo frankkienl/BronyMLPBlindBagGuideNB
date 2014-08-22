@@ -1,6 +1,7 @@
 package nl.frankkie.bronymlpblindbagguide;
 
 import android.app.Activity;
+import android.app.ListActivity;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ import nl.frankkie.bronymlpblindbagguide.model.Wave;
 /**
  * Created by FrankkieNL on 27-8-13.
  */
-public class WaveActivity extends Activity {
+public class WaveActivity extends ListActivity {
 
     Wave wave;
 
@@ -35,43 +36,67 @@ public class WaveActivity extends Activity {
         initUI();
         Log.v("MLP", "Wave init done");
     }
+    
+    public void initUI(){
+        setContentView(R.layout.activity_with_listview);
+        ListView lv = getListView();
+        lv.setAdapter(new WaveListAdapter(this));        
+    }
 
     @Override
     protected void onStop() {
         super.onStop();
         //try to clear the images from memory..
         System.gc();
-    }    
+    }
 
-    private void initUI() {
-        setContentView(R.layout.activity_wave);
-        //
-        LayoutInflater inflater = getLayoutInflater();
-        ViewGroup container = (ViewGroup) findViewById(R.id.code_container);
-        Pony[] ponies = wave.getPonies();
-        for (int i = 0; i < ponies.length; i++) {
-            final Pony pony = ponies[i];
-            final int ponyNr = i;
-            ViewGroup viewGroup = (ViewGroup) inflater.inflate(R.layout.layout_row_ponies, container, false);
+    public class WaveListAdapter extends BaseAdapter {
+
+        LayoutInflater inflater;
+        SharedPreferences prefs;
+
+        public WaveListAdapter(Activity act) {
+            inflater = act.getLayoutInflater();
+            prefs = PreferenceManager.getDefaultSharedPreferences(act);
+        }
+
+        public int getCount() {
+            return wave.getPonies().length;
+        }
+
+        public Object getItem(int position) {
+            return wave.getPonies()[position];
+        }
+
+        public long getItemId(int position) {
+            return position;
+        }
+
+        public View getView(int position, View convertView, ViewGroup parent) {
+            final Pony pony = (Pony) getItem(position);
+            final int ponyNr = position;
+            if (convertView == null) {
+                convertView = (ViewGroup) inflater.inflate(R.layout.layout_row_ponies, parent, false);
+            }
             try {
                 //Note: I prefix it here with images.
                 Drawable d = Drawable.createFromStream(getAssets().open("images/" + pony.getImageName()), null);
-                ((ImageView) viewGroup.findViewById(R.id.row_icon)).setImageDrawable(d);
+                ((ImageView) convertView.findViewById(R.id.row_icon)).setImageDrawable(d);
             } catch (Exception e) {
                 //ignore
             }
-            ((TextView) viewGroup.findViewById(R.id.row_title)).setText(pony.getPonyName());
+            ((TextView) convertView.findViewById(R.id.row_title)).setText(pony.getPonyName());
             if (pony.getDescription() == null || pony.getDescription().length == 0) {
-                viewGroup.findViewById(R.id.row_secondLine).setVisibility(View.GONE);
+                convertView.findViewById(R.id.row_secondLine).setVisibility(View.GONE);
             } else {
-                StringBuilder sb = new StringBuilder();                
+                StringBuilder sb = new StringBuilder();
                 for (String s : pony.getDescription()) {
                     sb.append(s).append("\n");
                 }
-                ((TextView) viewGroup.findViewById(R.id.row_secondLine)).setText(sb.toString());
+                ((TextView) convertView.findViewById(R.id.row_secondLine)).setText(sb.toString());
             }
             //
-            CheckBox cb = (CheckBox) viewGroup.findViewById(R.id.row_checkbox);
+            CheckBox cb = (CheckBox) convertView.findViewById(R.id.row_checkbox);
             cb.setChecked(prefs.getBoolean("w" + wave.getWaveNumber() + "p" + ponyNr, false));
             cb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
@@ -80,9 +105,8 @@ public class WaveActivity extends Activity {
                 }
             });
             //
-            viewGroup.setFocusable(true);
-            //add to container
-            container.addView(viewGroup);
+            convertView.setFocusable(true);
+            return convertView;
         }
     }
 }

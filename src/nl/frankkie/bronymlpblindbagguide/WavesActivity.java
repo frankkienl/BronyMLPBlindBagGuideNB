@@ -65,7 +65,7 @@ public class WavesActivity extends ListActivity {
     }
 
     private void initUI() {
-        setContentView(R.layout.waves);
+        setContentView(R.layout.activity_with_listview);
         //ListView lv = (ListView) findViewById(android.R.id.list);
         ListView lv = getListView();
         lv.setAdapter(new WavesListViewAdapter(this));
