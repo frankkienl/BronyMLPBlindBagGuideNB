@@ -70,4 +70,14 @@ Cette application est faite par FrankkieNL, Fluffikens et MLPMerch.com.
     <string name="wave_11">La vague 11 contient 24 figurines.</string>
     <string name="wave_collection_sets">Les sets de collection sont des sorties spéciales avec peu de figurines, exclusives à certains magasins.</string>
     <string name="wave_mini_sets">Les mini sets contiennent 3 à 6 personnages basés sur certains thèmes.</string>
+    
+    <!-- Buttons //-->
+    <string name="btn_codes">Codes</string>
+    <string name="btn_tutorial">Tutoriel</string>
+    <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+    <string name="btn_credits">Credits</string>
+    <string name="wave">Vague</string>
+    <string name="waves">Vagues</string>
+    <string name="collection_sets">Sets de collection</string>
+    <string name="mini_sets">Mini sets</string>
 </resources>

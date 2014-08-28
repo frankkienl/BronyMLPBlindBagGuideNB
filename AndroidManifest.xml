@@ -2,7 +2,11 @@
 <!--
 http://developer.android.com/guide/topics/data/install-location.html
 
-2.x (13):
+2.x (14):
+Added Polish (#6)
+Fixed text on buttons, not translated (#10)
+
+2.2 (13):
 Added French (#6)
 Switched to ListView (#4)
 Fixed Typo (#1)

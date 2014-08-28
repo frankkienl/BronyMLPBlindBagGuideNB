@@ -19,13 +19,10 @@ E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values\styles.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-fr\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-nl\strings.xml \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-pl\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-ru\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw600dp\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw720dp-land\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-v11\styles.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-v14\styles.xml \
-E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-hdpi\ic_launcher.png \
-E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-mdpi\ic_launcher.png \
-E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-xhdpi\ic_launcher.png \
-E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\res\drawable-xxhdpi\ic_launcher.png \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\bin\AndroidManifest.xml \

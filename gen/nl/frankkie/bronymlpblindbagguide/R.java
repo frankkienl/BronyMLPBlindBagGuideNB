@@ -55,11 +55,27 @@ public final class R {
         /**  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
+ http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
          */
         public static final int app_name=0x7f050000;
+        /**  Buttons //
+ Buttons //
+ Buttons //
+ Buttons //
+         */
+        public static final int btn_codes=0x7f050021;
+        /**  meaning: 'creators, contributor, authors'; or 'about this app' //
+ meaning: 'creators, contributor, authors'; or 'about this app' //
+ meaning: 'creators, contributor, authors'; or 'about this app' //
+ meaning: 'creators, contributor, authors'; or 'about this app' //
+         */
+        public static final int btn_credits=0x7f050023;
+        public static final int btn_tutorial=0x7f050022;
+        public static final int collection_sets=0x7f050026;
         public static final int credits=0x7f050006;
         public static final int data_export=0x7f050009;
         /**  note 2 self: 'import' is a reserved keyword //
+ note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //
@@ -72,13 +88,17 @@ public final class R {
  Import and Export //
  Import and Export //
  Import and Export //
+ Import and Export //
          */
         public static final int error=0x7f050007;
         public static final int main_welcome=0x7f050001;
+        public static final int mini_sets=0x7f050027;
         public static final int tut1=0x7f050003;
         public static final int tut2=0x7f050004;
         public static final int tut3=0x7f050005;
+        public static final int wave=0x7f050024;
         /**  Wave Descriptions //
+ Wave Descriptions //
  Wave Descriptions //
  Wave Descriptions //
  Wave Descriptions //
@@ -101,8 +121,10 @@ public final class R {
         public static final int wave_9b=0x7f05001b;
         public static final int wave_collection_sets=0x7f05001f;
         public static final int wave_mini_sets=0x7f050020;
+        public static final int waves=0x7f050025;
         public static final int welcome_message=0x7f05000e;
         /**  Welcome Screen //
+ Welcome Screen //
  Welcome Screen //
  Welcome Screen //
  Welcome Screen //

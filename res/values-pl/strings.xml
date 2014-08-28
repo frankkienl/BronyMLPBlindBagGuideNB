@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
+    <string name="app_name">Brony MLP Blind Bag Guide</string>
+    <string name="main_welcome">Przewodnik po blindbagach My Little Pony G4
+\nProgram stworzony przy pomocy informacji z serwisu MLPMerch.com.
+\n
+\nNa MLPMerch.com znajdziesz bazę danych o blindbagach i najnowsze informacje o produktach MLP!</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="tut1">
+Czy wiedziałeś, że możesz poznać zawartość blindbaga bez otwierania go?
+\nTen samouczek powie ci jak to zrobić!
+\n
+\nKrok 1: Przede wszystkim musisz wiedzieć, która edycja blindbagów jest aktualnie w twoim sklepie. Ta aplikacja pomoże ci to rozpoznać.
+\n
+\nKrok 2: Znajdź kod na blindbagu (przykłady poniżej):
+\n- Blindbagi z edycji od 1 do 7 mają kod na zgrzewie z tyłu blindbaga, 2- lub 5-cyfrowy. Jeśli kod jest 5-cyfrowy, zignoruj wszystkie cyfry z wyjątkiem
+ 
+drugiej i czwartej; 80216 czytasz jako 01, a 82206 jako 20.
+\n- Blindbagi z edycji od 8 do 11 mają 2-cyfrowy kod u spodu opakowania.
+\n
+Krok 3: Użyj tej aplikacji, aby sprawdzić, który kucyk pasuje do edycji i kodu!
+\n
+\nDwa przykłady:
+    </string>
+    <string name="tut2">
+Ten blindbag z edycji nr 5 ma kod 70192 (09), co oznacza Rainbow Dash!</string>
+    <string name="tut3">
+Ten blindbag z edycji nr 9 ma kod AH, co oznacza Shoeshine!</string>
+    <string name="credits">
+Aplikacja stworzona przez FrankkieNL, Fluffikens i MLPMerch.com.
+\nOryginalna (flashowa) aplikacja stworzona przez Jaroslava Vozara.
+\n
+\nŹródła obrazów:\n
+\nMLPMerch.com, Elwyn, Breyer600, collec-jcg i StrawberryReef.
+\n
+\nLinki:
+\nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
+\nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
+\nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+    </string>
+   
+    <!-- Import and Export //-->
+    <string name="error">Błąd</string>
+    <!-- note 2 self: 'import' is a reserved keyword //-->
+    <string name="data_import">Import</string>
+    <string name="data_export">Eksport</string>
+    <string name="data_import_paste">Import, wklej tutaj</string>
+    <string name="data_import_error">Błąd importu\nProszę sprawdzić dane i ponowić próbę.</string>
+    <string name="data_import_done">Import wykonany</string>
+   
+    <!-- Welcome Screen //-->
+    <string name="welcome_title">Witamy!</string>
+    <string name="welcome_message">Aplikacja została zaktualizowana!\nFrankkieNL współpracuje z MLPMerch.com, aby dostarczyć jak najdokładniejsze
+ 
+informacje o blindbagach!</string>
+ 
+    <!-- Wave Descriptions //-->
+    <string name="wave_1">Edycja 1 zawiera 24 figurki, w tym 3 przezroczyste z brokatem.</string>
+    <string name="wave_2">Edycja 2 zawiera 24 figurki, w tym 3 przezroczyste z brokatem. (Tylko w EU)</string>
+    <string name="wave_3">Edycja 3 zawiera 24 figurki, w tym 3 przezroczyste z brokatem.</string>
+    <string name="wave_4">Edycja 4 zawiera 24 figurki, w tym 3 metaliczne.</string>
+    <string name="wave_5">Edycja 5 zawiera 24 figurki.</string>
+    <string name="wave_6">Edycja 6 zawiera 24 figurki, w tym 3 z klejnotami w Znaczkach.</string>
+    <string name="wave_7">Edycja 7 zawiera 24 figurki, wszystkie przezroczyste z malowanymi włosami.</string>
+    <string name="wave_8">Edycja 8 zawiera 24 figurki, wszystkie przezroczyste (neonowe) z malowanymi włosami.</string>
+    <string name="wave_8a">Edycja 8A zawiera 12 figurek, wszystkie przezroczyste (neonowe) z malowanymi włosami. (Tylko w Wielkiej Brytanii)</string>
+    <string name="wave_8b">Edycja 8B zawiera 12 figurek, wszystkie przezroczyste (neonowe) z malowanymi włosami. (Tylko w Wielkiej Brytanii)</string>
+    <string name="wave_9">Edycja 9 zawiera 24 figurki, w tym 3 w wersji tęczowej.</string>
+    <string name="wave_9a">Edycja 9A zawiera 12 figurek, w tym 1 w wersji tęczowej. (Tylko w Wielkiej Brytanii)</string>
+    <string name="wave_9b">Edycja 9B zawiera 12 figurek, w tym 2 w wersji tęczowej. (Tylko w Wielkiej Brytanii)</string>
+    <string name="wave_10">Edycja 10 zawiera 24 figurki, wszystkie przezroczyste z malowanymi włosami i brokatem.</string>
+    <string name="wave_10a">Edycja 10A zawiera 12 figurek, wszystkie przezroczyste z malowanymi włosami i brokatem. (Tylko w Wielkiej Brytanii)</string>
+    <string name="wave_11">Edycja 11 zawiera 24 figurki.</string>
+    <string name="wave_collection_sets">Zestawy kolekcjonerskie to specjalne zestawy ograniczone do kilku figurek, sprzedawane wyłącznie w określonych sklepach.</string>
+    <string name="wave_mini_sets">Minizestawy zawierają od 3 do 6 postaci dobranych pod względem tematycznym.</string>
+    
+    <!-- Buttons //-->
+    <string name="btn_codes">Kody</string>
+    <string name="btn_tutorial">Samouczek</string>
+    <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+    <string name="btn_credits">O aplikacji</string>
+    <string name="wave">Edycja</string>
+    <string name="waves">Edycje</string>
+    <string name="collection_sets">Zestawy kolekcjonerskie</string>
+    <string name="mini_sets">Minizestawy</string>
+</resources>

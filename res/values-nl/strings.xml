@@ -72,4 +72,14 @@ Deze app is gemaakt door FrankkieNL, Fluffikens and MLPMerch.com.
     <string name="wave_collection_sets">Collection sets zijn speciale releases met een paar figuren, exclusief voor een bepaalde winkel.</string>
     <string name="wave_mini_sets">Mini sets bevatten 3 tot 6 figuren gebaseerd op een bepaald thema.</string>
 
+<!-- Buttons //-->
+    <string name="btn_codes">Codes</string>
+    <string name="btn_tutorial">Uitleg</string>
+    <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+    <string name="btn_credits">Credits</string>
+    <string name="wave">Wave</string>
+    <string name="waves">Waves</string>
+    <string name="collection_sets">Collectie Sets</string>
+    <string name="mini_sets">Mini Sets</string>
+
 </resources>

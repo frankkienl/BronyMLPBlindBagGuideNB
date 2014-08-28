@@ -25,19 +25,19 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Codes"
+                android:text="@string/btn_codes"
                 android:id="@+id/btn_codes"
             />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tutorial"
+                android:text="@string/btn_tutorial"
                 android:id="@+id/btn_tutorial"
             />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Credits"
+                android:text="@string/btn_credits"
                 android:id="@+id/btn_credits"
             />
         </LinearLayout>

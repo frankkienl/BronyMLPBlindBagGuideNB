@@ -70,4 +70,15 @@ This application is made by FrankkieNL, Fluffikens and MLPMerch.com.
     <string name="wave_11">Wave 11 contains 24 figures.</string>
     <string name="wave_collection_sets">Collection sets are special releases with a few figures, exclusive to a certain store.</string>
     <string name="wave_mini_sets">Mini sets contain 3 to 6 characters based on a certain theme.</string>
+    
+    <!-- Buttons //-->
+    <string name="btn_codes">Codes</string>
+    <string name="btn_tutorial">Tutorial</string>
+    <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+    <string name="btn_credits">Credits</string>
+    <string name="wave">Wave</string>
+    <string name="waves">Waves</string>
+    <string name="collection_sets">Collection Sets</string>
+    <string name="mini_sets">Mini Sets</string>
+    
 </resources>
