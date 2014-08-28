@@ -9,6 +9,7 @@ Fixed Typo (#1)
 Added ACRA (App Crash Reporting) (#9)
 Added Internet-permission, for ACRA (#9)
 Fixed Crash on Android 2.1 (#8)
+Added Russian (#6)
 
 2.1 (12):
 Switched to CSV bases data-set.
@@ -48,8 +49,8 @@ Removed redundant 'Settings' button
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="nl.frankkie.bronymlpblindbagguide"
           android:installLocation="preferExternal"
-          android:versionCode="12"
-          android:versionName="2.1" >
+          android:versionCode="13"
+          android:versionName="2.2" >
 
     <uses-sdk
         android:minSdkVersion="7"

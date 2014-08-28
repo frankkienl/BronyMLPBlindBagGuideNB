@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
+    <string name="app_name">Brony MLP Blind Bag Guide</string>
+    <string name="main_welcome">Справочник по блайндбегам 4-го поколения My Little Pony
+\nСоздано на основе информации из базы данных блайндбегов сайта MLPMerch.com.
+\n
+\nПосетите сайт MLPMerch.com - ресурс с онлайновой базой данных по блайндбегам и новостями мерча MLP!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="tut1">
+Знаете ли вы, что содержимое блайндбега можно узнать, не открывая его?
+\nВ этом руководстве мы научим, как это сделать!
+\n
+\nШаг 1: Сначала нужно узнать, к какой волне относится блайндбег, который вы нашли. Вы можете сравнить пакетик в магазине с пакетиками волн в этом приложении.
+\n
+\nШаг 2: Найдите код на пакетике (примеры ниже):
+\n- В волнах 1-7 на задней стороне блайндбега есть вертикальный шов с кодом из 2 или 5 цифр. Если в коде 5 цифр, обращайте внимание только на 2-ю и 4-ю: #80216 соответствует #01, #82206 соответствует #20 и т.д.
+\n- В волнах 8-11 внизу блайндбега находится 2-буквенный код.
+\n
+Шаг 3: Используйте это приложение, чтобы узнать какая пони из выбранной волны соответствует коду!
+\n
+\nВот еще 2 примера:
+    </string>
+    <string name="tut2">
+На блайндбеге из 5-й волны написан код #70192 (#09), значит это Rainbow Dash!</string>
+    <string name="tut3">
+На блайндбеге из 9-й волны написан код AH, значит это Shoeshine!</string>
+    <string name="credits">
+Приложение разработано FrankkieNL, Fluffikens и MLPMerch.com.
+\nПеревод на русский язык - Tomo (youtube.com/TomoFacja).
+\nИсходное флэш-приложение разработано Jaroslav Vozar.
+\n
+\nИзображения:\n
+\nMLPMerch.com, Elwyn, Breyer600, collec-jcg и StrawberryReef.
+\n
+\nСсылки:
+\nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
+\nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
+\nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+    </string>
+    
+    <!-- Import and Export //-->
+    <string name="error">Ошибка</string>
+    <!-- note 2 self: 'import' is a reserved keyword //-->
+    <string name="data_import">Импорт</string>
+    <string name="data_export">Экспорт</string>
+    <string name="data_import_paste">Импорт, вставить сюда</string>
+    <string name="data_import_error">Ошибка импорта\nПроверьте данные и попробуйте еще раз.</string>
+    <string name="data_import_done">Импорт завершен</string>
+    
+    <!-- Welcome Screen //-->
+    <string name="welcome_title">Добро пожаловать!</string>
+    <string name="welcome_message">Это приложение было обновлено!\nFrankkieNL теперь сотрудничает с MLPMerch.com, чтобы предоставить вам самую свежую информацию о блайндбегах!</string>
+
+    <!-- Wave Descriptions //-->
+    <string name="wave_1">Волна 1 содержит 24 фигурки, 3 из которых прозрачные с блестками.</string>
+    <string name="wave_2">Волна 2 содержит 24 фигурки, 3 из которых прозрачные с блестками. (EU Only)</string>
+    <string name="wave_3">Волна 3 содержит 24 фигурки, 3 из которых светятся в темноте.</string>
+    <string name="wave_4">Волна 4 содержит 24 фигурки, 3 из которых сделаны под металлик, а остальные прозрачные с блестками.</string>
+    <string name="wave_5">Волна 5 содержит 24 фигурки.</string>
+    <string name="wave_6">Волна 6 содержит 24 фигурки, 3 из которых имеют объемные кьютимарки.</string>
+    <string name="wave_7">Волна 7 содержит 24 фигурки, все они прозрачные с раскрашеной гривой.</string>
+    <string name="wave_8">Волна 8 содержит 24 фигурки, все они прозрачные (неоновые) с раскрашеной гривой.</string>
+    <string name="wave_8a">Волна 8A содержит 12 фигурок, все они прозрачные (неоновые) с раскрашеной гривой. (только в Великобритании)</string>
+    <string name="wave_8b">Волна 8B содержит 12 фигурок, все они прозрачные (неоновые) с раскрашеной гривой. (только в Великобритании)</string>
+    <string name="wave_9">Волна 9 содержит 24 фигурки, 3 из которых радужные пони.</string>
+    <string name="wave_9a">Волна 9A содержит 12 фигурок, 1 из которых радужная пони. (только в Великобритании)</string>
+    <string name="wave_9b">Волна 9B содержит 12 фигурок, 2 из которых радужные пони. (только в Великобритании)</string>
+    <string name="wave_10">Волна 10 содержит 24 фигурки, все они прозрачные с блестками и раскрашеной гривой.</string>
+    <string name="wave_10a">Волна 10A содержит 12 фигурок, все они прозрачные с блестками и раскрашеной гривой. (только в Великобритании)</string>
+    <string name="wave_11">Волна 11 содержит 24 фигурки.</string>
+    <string name="wave_collection_sets">Коллекционные наборы представляют из себя особые издания с несколькими пони, эксклюзивные для какого-то магазина.</string>
+    <string name="wave_mini_sets">Мини-наборы содержат от 3 до 6 персонажей, объединенных общей темой.</string>
+</resources>
