@@ -2,9 +2,10 @@
 <!--
 http://developer.android.com/guide/topics/data/install-location.html
 
-2.x (14):
+2.2.1 (14):
 Added Polish (#6)
 Fixed text on buttons, not translated (#10)
+Fixed Checkbox unchecking while scrolling (#11)
 
 2.2 (13):
 Added French (#6)
@@ -53,8 +54,8 @@ Removed redundant 'Settings' button
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="nl.frankkie.bronymlpblindbagguide"
           android:installLocation="preferExternal"
-          android:versionCode="13"
-          android:versionName="2.2" >
+          android:versionCode="14"
+          android:versionName="2.2.1" >
 
     <uses-sdk
         android:minSdkVersion="7"

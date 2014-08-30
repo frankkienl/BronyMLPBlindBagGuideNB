@@ -97,11 +97,12 @@ public class WaveActivity extends ListActivity {
             }
             //
             CheckBox cb = (CheckBox) convertView.findViewById(R.id.row_checkbox);
+            cb.setOnCheckedChangeListener(null);
             cb.setChecked(prefs.getBoolean("w" + wave.getWaveNumber() + "p" + ponyNr, false));
             cb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                    prefs.edit().putBoolean("w" + wave.getWaveNumber() + "p" + ponyNr, b).commit();
+                    prefs.edit().putBoolean("w" + wave.getWaveNumber() + "p" + ponyNr, b).commit();                    
                 }
             });
             //
