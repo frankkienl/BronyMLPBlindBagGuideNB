@@ -71,4 +71,14 @@
     <string name="wave_11">Волна 11 содержит 24 фигурки.</string>
     <string name="wave_collection_sets">Коллекционные наборы представляют из себя особые издания с несколькими пони, эксклюзивные для какого-то магазина.</string>
     <string name="wave_mini_sets">Мини-наборы содержат от 3 до 6 персонажей, объединенных общей темой.</string>
+    
+    <!-- Buttons //-->
+    <string name="btn_codes">Коды</string>
+    <string name="btn_tutorial">Руководство</string>
+    <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+    <string name="btn_credits">Разработчики</string>
+    <string name="wave">Волна</string>
+    <string name="waves">Волны</string>
+    <string name="collection_sets">Коллекционные наборы</string>
+    <string name="mini_sets">Мини-наборы</string>
 </resources>
