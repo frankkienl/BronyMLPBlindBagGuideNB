@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
+        <string name="app_name">Brony MLP Blinde Beutel Ratgeber</string>
+        <string name="main_welcome">My Little Pony G4 Blinde Beutel Ratgeber
+    \nGestaltet mit Informationen aus der Datenbank MLPMerch.com Blinde Beutel.
+    \n
+    \nBesuchen MLPMerch.com für die Online Blinde Beutel Datenbank und MLP Merch Nachrichten! </string>
+        <string name="action_settings">Einstellungen</string>
+        <string name="tut1">
+    Wussten Sie, dass Sie vorhersagen können, was ein MLP blinde Beutel wird ohne es zu öffnen enthalten?
+    \nWir werden Sie alles darüber in diesem Tutorial zu lehren!
+    \n
+    \nSchritt 1: Zuerst müssen Sie wissen, welche Welle der blinde Beutel, die Sie in einem Geschäft zu sehen. In dieser App können Sie sehen, welche Beutel die einer in Ihrem Geschäft passt.
+    \n
+    \nSchritt 2: Suchen Sie den Code auf der blinde Beutel (Beispiele unten):
+    \n- Wellen 1-7 blinde Beutels haben eine Naht auf der Rückseite des blinden Tasche mit einem Code, ist dieser Code entweder 2 oder 5 Zahlen lang. Wenn Sie haben ein 5-Zahlencode, nur lesen Sie die 2. und 4. Reihe: #80216 #01 ist und #82206 #20 ist.
+    \n- Wellen 8-11 Blind Beutels haben eine 2-Buchstaben-Code auf dem Boden des Beutel.
+    \n
+    Schritt 3: Verwenden Sie diese App, um zu sehen, welche Pony des ausgewählten Wellen übereinstimmt den Code!
+    \n
+    \nHier sind 2 Beispielen:
+        </string>
+        <string name="tut2">
+    Diese Welle 5 blinde Tasche hat Code # 70192 (# 09), und dass ist Rainbow Dash! </string>
+        <string name="tut3">
+    Diese Welle 9 blinde Tasche hat AH-Code, der Shoeshine ist!</string>
+        <string name="credits">
+    Diese Anwendung wird gemacht von FrankkieNL, Fluffikens und MLPMerch.com.
+    \nDas Original (Flash) Applikation wird gemacht von Jaroslav Vozar.
+    \n
+    \nBilder von:\n
+    \nMLPMerch.com, Elwyn, Breyer600, collec-jcg und StrawberryReef.
+    \n
+    \nLinks:
+    \nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
+    \nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
+    \nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+        </string>
+       
+        <!-- Import and Export //-->
+        <string name="error">Fehler</string>
+        <!-- note 2 self: 'import' is a reserved keyword //-->
+        <string name="data_import">Import</string>
+        <string name="data_export">Export</string>
+        <string name="data_import_paste">Import, fügen Sie hier </string>
+        <string name="data_import_error">Fehler beim Import\nBitte überprüfen Sie die Daten und versuchen Sie es erneut. </string>
+        <string name="data_import_done">Import durchgeführt</string>
+       
+        <!-- Welcome Screen //-->
+        <string name="welcome_title">Willkommen !</string>
+        <string name="welcome_message">Diese Anwendung wurde aktualisiert!\nFrankkieNL wird nun die Zusammenarbeit mit MLPMerch.com, um die meisten up-to-Date Blind Beutel Auskünfte! </string>
+     
+        <!-- Wave Descriptions //-->
+        <string name="wave_1">Welle 1 enthält 24 Abbildungen, davon 3 mit Glitzer transparent sind.</string>
+        <string name="wave_2">Welle 2 enthält 24 Abbildungen, davon 3 mit Glitzer transparent sind. (Nur EU)</string>
+        <string name="wave_3">Welle 3 enthält 24 Abbildungen, davon 3 im Dunkeln leuchten.</string>
+        <string name="wave_4">Welle 4 enthält 24 Figuren, von denen 3 Metallic sind.</string>
+        <string name="wave_5">Welle 5 enthält 24 Figuren. </string>
+        <string name="wave_6">Welle 6 enthält 24 Figuren, von denen 3 Juwel Cutie Mark.</string>
+        <string name="wave_7">Welle 7 enthält 24 Figuren, die alle transparent mit bemalten Haar.</string>
+        <string name="wave_8">Welle 8 enthält 24 Figuren, die alle transparent (Neon) mit gemalten Haaren.</string>
+        <string name="wave_8a">Welle 8A enthält 12 Figuren, die alle transparent (Neon) mit gemalten Haaren. (Nur Großbritannien)</string>
+        <string name="wave_8b">Welle 8B besteht aus 12 Figuren, die alle transparent (Neon) mit gemalten Haaren. (Nur Großbritannien)</string>
+        <string name="wave_9">Welle 9 enthält 24 Abbildungen, davon 3 Regenbogen-Ponys.</string>
+        <string name="wave_9a">Welle 9A enthält 12 Figuren, von denen 1 ist ein Regenbogen-Pony. (Nur Großbritannien)</string>
+        <string name="wave_9b">Welle 9B besteht aus 12 Abbildungen, davon 2 Regenbogen-Ponys. (Nur Großbritannien) </string>
+        <string name="wave_10">Welle 10 enthält 24 Figuren, alle transparent mit gemalten Haar und Glitter sind.</string>
+        <string name="wave_10a">Welle 10A besteht aus 12 Figuren, alle transparent mit bemalten Haar und Glitter sind. (Nur Großbritannien)</string>
+        <string name="wave_11">Welle 11 enthält 24 Figuren.</string>
+        <string name="wave_collection_sets">Sets sind spezielle Versionen mit ein paar Zahlen, exklusiv für einen bestimmten Laden.</string>
+        <string name="wave_mini_sets">Mini-Sets enthalten 3 bis 6 Zeichen, basierend auf einem bestimmten Thema.</string>
+       
+        <!-- Buttons //-->
+        <string name="btn_codes">Codes</string>
+        <string name="btn_tutorial">Tutorial</string>
+        <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+        <string name="btn_credits">Gutschriften</string>
+        <string name="wave">Welle</string>
+        <string name="waves">Wellen</string>
+        <string name="collection_sets">Abholung Set zu</string>
+        <string name="mini_sets">Mini-Sets</string>
+       
+</resources>
