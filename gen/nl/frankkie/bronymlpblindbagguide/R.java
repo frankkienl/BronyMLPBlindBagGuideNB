@@ -56,15 +56,23 @@ public final class R {
  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
  http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
+ http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
+ http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //
          */
         public static final int app_name=0x7f050000;
         /**  Buttons //
  Buttons //
  Buttons //
  Buttons //
+ Buttons //
+ Buttons //
+ Buttons //
          */
         public static final int btn_codes=0x7f050021;
         /**  meaning: 'creators, contributor, authors'; or 'about this app' //
+ meaning: 'creators, contributor, authors'; or 'about this app' //
+ meaning: 'creators, contributor, authors'; or 'about this app' //
+ meaning: 'creators, contributor, authors'; or 'about this app' //
  meaning: 'creators, contributor, authors'; or 'about this app' //
  meaning: 'creators, contributor, authors'; or 'about this app' //
  meaning: 'creators, contributor, authors'; or 'about this app' //
@@ -79,12 +87,16 @@ public final class R {
  note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //
+ note 2 self: 'import' is a reserved keyword //
+ note 2 self: 'import' is a reserved keyword //
          */
         public static final int data_import=0x7f050008;
         public static final int data_import_done=0x7f05000c;
         public static final int data_import_error=0x7f05000b;
         public static final int data_import_paste=0x7f05000a;
         /**  Import and Export //
+ Import and Export //
+ Import and Export //
  Import and Export //
  Import and Export //
  Import and Export //
@@ -98,6 +110,8 @@ public final class R {
         public static final int tut3=0x7f050005;
         public static final int wave=0x7f050024;
         /**  Wave Descriptions //
+ Wave Descriptions //
+ Wave Descriptions //
  Wave Descriptions //
  Wave Descriptions //
  Wave Descriptions //
@@ -124,6 +138,8 @@ public final class R {
         public static final int waves=0x7f050025;
         public static final int welcome_message=0x7f05000e;
         /**  Welcome Screen //
+ Welcome Screen //
+ Welcome Screen //
  Welcome Screen //
  Welcome Screen //
  Welcome Screen //

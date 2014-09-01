@@ -2,6 +2,12 @@
 <!--
 http://developer.android.com/guide/topics/data/install-location.html
 
+2.x (15):
+Added Spanish (#6)
+Added German (#6)
+Added Russion text for buttons (#10)
+Fixed Typo in English text
+
 2.2.1 (14):
 Added Polish (#6)
 Fixed text on buttons, not translated (#10)
