@@ -47,7 +47,7 @@ Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
 <string name="data_import_done">Importering slutförd</string>
 <!-- Welcome Screen //-->
 <string name="welcome_title">Välkommen!</string>
-<string name="welcome_message">Den här applikationen har uppdaterats!\nFrankkieNL sammarbetar nu med MLPMerch.com de nyaste Blind Bag uppgifterna!</string>
+<string name="welcome_message">Den här applikationen har uppdaterats!\nFrankkieNL samarbetar nu med MLPMerch.com för de senaste Blind Bag uppgifterna!</string>
 <!-- Wave Descriptions //-->
 <string name="wave_1">Våg 1 innehåller 24 figurer, av vilka 3 är genomskinliga med glitter.</string>
 <string name="wave_2">Våg 2 innehåller 24 figurer, av vilka 3 är genomskinliga med glitter. (Endast EU)</string>
