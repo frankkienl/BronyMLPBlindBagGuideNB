@@ -3,36 +3,44 @@
     <!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
     <string name="app_name">Brony MLP Blind Bag Guide</string>
     <string name="main_welcome">Guia de Bolsita Sorpresa (Blind Bag) My Little Pony G4
-        \nCreado usando informacion de MLPMerch.com Blind Bag Database.
+        \nCreado usando información de MLPMerch.com Blind Bag Database.
         \n
-        \n¡Visite MLPMerch.com para obtener informacion de la base de datos sobre las bolsitas sorpresa, e informacion sobre otras mercancias!</string>
+        \n¡Visite MLPMerch.com para obtener información de la base de datos sobre las bolsitas sorpresa, e información
+ 
+        sobre las otras mercancías!</string>
     <string name="action_settings">Ajustes</string>
     <string name="tut1">
-        ¿Sabias que es possible predecir el contenido de un MLP bolsita sorpresa (blind bag) sin abrirlo?
+        ¿Sabias que es posible predecir el contenido de una MLP bolsita sorpresa (blind bag) sin abrirla?
         \n¡Te enseñaremos en este tutorial!
         \n
-        \nPaso 1: Primero, tienes que saber la Wave (Ola) que tienen en la tienda. En este app, se puede ver cual bolsa coincide con el que en la tienda.
+        \nPaso 1: Primero, tienes que saber el Wave (Ola) que ofrecen en la tienda. En este app, se puede ver cual bolsa
+ 
+        coincide con el que ofrecen en la tienda.
         \n
-        \nPaso 2: Busca el codigo en la bolsita sorpresa (ejemplo abajo):
-        \n- Bolsitas sorpresa Wave 1-7 tenien una costura en la parte posterior de la bolsa con un codigo, este codigo es de 2 a 5 numeros de largo. Si tienes uno de 5 numeros, solo lee el 2do y el 4to numero: #80216 es #01 y #82206 es #20.
+        \nPaso 2: Busca el código en la bolsita sorpresa (ejemplo abajo):
+        \n- Bolsitas sorpresa Wave 1-7 tienen una costura en la parte posterior de la bolsa con un código, este código es
+ 
+        de 2 a 5 números de largo. Si tienes el de 5 números, solo lee el 2do y el 4to número: #80216 es #01 y #82206 es
+ 
+        #20.
         \n- Bolsitas sorpresa Wave 8-11 tienen un código de 2 letras en la parte inferior de la bolsa.
         \n
-        Paso 3: ¡Utilize este app para ver cual pony de el Wave seleccionado coincide con el codigo!
+        Paso 3: ¡Utilize este app para ver cual pony de el Wave seleccionado coincide con el código!
         \n
-        \nAqui hay 2 ejemplos:
+        \nAquí hay 2 ejemplos:
     </string>
     <string name="tut2">
-        ¡Esta bolsita sorpresa Wave 5 tiene el codigo #70192 (#09), en el cual es Rainbow Dash!</string>
+        ¡Esta bolsita sorpresa Wave 5 tiene el código #70192 (#09), en la cual es Rainbow Dash!</string>
     <string name="tut3">
-        ¡Esta bolsita sorpresa Wave 9 tiene el codigo AH, en el cual es Shoeshine!</string>
+        ¡Esta bolsita sorpresa Wave 9 tiene el código AH, en la cual es Shoeshine!</string>
     <string name="credits">
-        Applicacion creada por FrankkieNL, Fluffikens, y MLPMerch.com.
-        \nApplicacion original en (flash) creada por Jaroslav Vozar.
+        Aplicación creada por FrankkieNL, Fluffikens, y MLPMerch.com.
+        \nAplicación original en (flash) creada por Jaroslav Vozar.
         \n
-        \nImagenes por:\n
+        \nImágenes por:\n
         \nMLPMerch.com, Elwyn, Breyer600, collec-jcg and StrawberryReef.
         \n
-        \nLinks:
+        \nPáginas Web:
         \nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
         \nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
         \nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
@@ -40,40 +48,58 @@
     <!-- Import and Export //-->
     <string name="error">Error</string>
     <!-- note 2 self: 'import' is a reserved keyword //-->
-    <string name="data_import">Importacion</string>
-    <string name="data_export">Exportacion</string>
-    <string name="data_import_paste">Importacion, pegue (paste) aqui</string>
+    <string name="data_import">Importación</string>
+    <string name="data_export">Exportación</string>
+    <string name="data_import_paste">Importación, pegue (paste) aqui</string>
     <string name="data_import_error">Import Error\nPor favor, verificar la informacion, e intente de nuevo.</string>
-    <string name="data_import_done">Importacion Completa</string>
+    <string name="data_import_done">Importación Completa</string>
     <!-- Welcome Screen //-->
     <string name="welcome_title">¡Bienvenidos!</string>
-    <string name="welcome_message">¡Applicacion fue actualizada!\n¡FrankkieNL ahora esta colaborando con MLPMerch.com para proveer la informacion mas actualizada de bolsitas sorpresas!</string>
+    <string name="welcome_message">¡Aplicación fue actualizada!\n¡FrankkieNL ahora esta colaborando con MLPMerch.com
+ 
+        para proveer la información más actualizada de bolsitas sorpresas!</string>
     <!-- Wave Descriptions //-->
-    <string name="wave_1">Wave 1 contiene 24 figuras, 3 en los cuales son transparente con brillo.</string>
-    <string name="wave_2">Wave 2 contiene 24 figuras, 3 en los cuales son transparente con brillo. (Solo en Europa)</string>
-    <string name="wave_3">Wave 3 contiene 24 figuras, 3 en los cuales brillan en la oscuridad.</string>
-    <string name="wave_4">Wave 4 contiene 24 figuras, 3 en los cuales son metalicas.</string>
+    <string name="wave_1">Wave 1 contiene 24 figuras, 3 en las cuales son transparentes con brillo.</string>
+    <string name="wave_2">Wave 2 contiene 24 figuras, 3 en las cuales son transparentes con brillo. (Solo en Europa)
+ 
+    </string>
+    <string name="wave_3">Wave 3 contiene 24 figuras, 3 en las cuales brillan en la oscuridad.</string>
+    <string name="wave_4">Wave 4 contiene 24 figuras, 3 en las cuales son metálicas.</string>
     <string name="wave_5">Wave 5 contiene 24 figuras.</string>
-    <string name="wave_6">Wave 6 contiene 24 figuras, 3 en los cuales tienen marcas de gemas.</string>
-    <string name="wave_7">Wave 7 contiene 24 figuras, en los cuales todas son transparente, con cabello pintado.</string>
-    <string name="wave_8">Wave 8 contiene 24 figuras, en los cuales todas son transparente en neon, con cabello pintado.</string>
-    <string name="wave_8a">Wave 8A contiene 12 figuras, en los cuales todas son transparente en neon, con cabello pintado. (Solo en Europa)</string>
-    <string name="wave_8b">Wave 8B contiene 12 figuras, en los cuales todas son transparente en neon, con cabello pintado. (Solo en Europa)</string>
-    <string name="wave_9">Wave 9 contiene 24 figuras, 3 en los cuales son ponis alco iris.</string>
-    <string name="wave_9a">Wave 9A contiene 12 figuras, 1 en el cual es un pony alco iris. (Solo en Europa)</string>
-    <string name="wave_9b">Wave 9B contiene 12 figuras, 2 en los cuales son ponis alco iris. (Solo en Europa)</string>
-    <string name="wave_10">Wave 10 contiene 24 figuras, todas son transparente, con el cabello pintado, y con brillo.</string>
-    <string name="wave_10a">Wave 10A contiene 12 figuras, todas son transparente, con el cabello pintado, y con brillo. (Solo en Europa)</string>
+    <string name="wave_6">Wave 6 contiene 24 figuras, 3 en las cuales tienen marcas de gemas.</string>
+    <string name="wave_7">Wave 7 contiene 24 figuras, en las cuales todas son transparentes, con cabello
+ 
+        pintado.</string>
+    <string name="wave_8">Wave 8 contiene 24 figuras, en las cuales todas son transparentes en neón, con cabello
+ 
+        pintado.</string>
+    <string name="wave_8a">Wave 8A contiene 12 figuras, en las cuales todas son transparentes en neón, con cabello
+ 
+        pintado. (Solo en Europa)</string>
+    <string name="wave_8b">Wave 8B contiene 12 figuras, en las cuales todas son transparentes en neón, con cabello
+ 
+        pintado. (Solo en Europa)</string>
+    <string name="wave_9">Wave 9 contiene 24 figuras, 3 en las cuales son ponis arco iris.</string>
+    <string name="wave_9a">Wave 9A contiene 12 figuras, 1 en la cual es un pony arco iris. (Solo en Europa)</string>
+    <string name="wave_9b">Wave 9B contiene 12 figuras, 2 en las cuales son ponis arco iris. (Solo en Europa)</string>
+    <string name="wave_10">Wave 10 contiene 24 figuras, todas son transparentes, con el cabello pintado, y con
+ 
+        brillo.</string>
+    <string name="wave_10a">Wave 10A contiene 12 figuras, todas son transparentes, con el cabello pintado, y con
+ 
+        brillo. (Solo en Europa)</string>
     <string name="wave_11">Wave 11 contiene 24 figuras.</string>
-    <string name="wave_collection_sets">Colecciones de versiones especiales contienen figuras exclusivas en tiendas exclusivas.</string>
-    <string name="wave_mini_sets">Mini Set contiene 3 a 6 personajes basados en un tema en especifico.</string>
+    <string name="wave_collection_sets">Colecciones de versiones especiales contienen figuras exclusivas en tiendas
+ 
+        exclusivas.</string>
+    <string name="wave_mini_sets">Mini Set contiene 3 a 6 personajes basados en un tema en específico.</string>
     <!-- Buttons //-->
-    <string name="btn_codes">Codigos</string>
+    <string name="btn_codes">Códigos</string>
     <string name="btn_tutorial">Tutorial</string>
     <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
-    <string name="btn_credits">Creditos</string>
+    <string name="btn_credits">Créditos</string>
     <string name="wave">Wave</string>
     <string name="waves">Waves</string>
-    <string name="collection_sets">Sets de Coleccion</string>
+    <string name="collection_sets">Sets de Colección</string>
     <string name="mini_sets">Mini Sets</string>
 </resources>
