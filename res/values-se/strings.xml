@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
+<string name="app_name">Brony MLP Blind Bag Guide</string>
+<string name="main_welcome">My Little Pony G4 Blind Bag Guide
+\nSkapad med info från MLPMerch.com Blind Bag Databas.
+\n
+\nBesök MLPMerch.com online Blind Bag Databas och MLP merch nyheter!</string>
+<string name="action_settings">Inställningar</string>
+<string name="tut1">
+Visste du att du kan förutse vad som finns i en MLP blind bag utan att öppna den?
+\nVi lär dig om det i denna handledning!
+\n
+\nSteg 1: Först måste du veta vilken våg av blind bag du ser i affären. I denna app kan du se vilken påse som matchar den i din butik.
+\n
+\nSteg 2: Hitta koden på blind bagen (exempel nedan):
+\n- Våg 1-7 blind bags har en söm på baksidan med en kod, den är antingen 2 eller 5 siffror lång. När du har en 5-siffrig kod läser du endast det 2:a och 4:e numret: #80216 är #01 och #82206 är #20.
+\n- Våg 8-11 blind bags har en kod bestående av två bokstäver på nederdelen av påsen.
+\n
+Steg 3: Använd den här appen för att se vilken ponny i den valda vågen som matchar koden.
+\n
+\nHär är 2 exempel:
+</string>
+<string name="tut2">
+Denna Våg 5 blind bag har koden #70192 (#09), vilken är Rainbow Dash!</string>
+<string name="tut3">
+Denna Våg 9 blind bag has koden AH, vilken är Shoeshine!</string>
+<string name="credits">
+Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
+\nDen ursprungliga (flash) applikationen är gjord av Jaroslav Vozar.
+\n
+\nBilder av:\n
+\nMLPMerch.com, Elwyn, Breyer600, collec-jcg och StrawberryReef.
+\n
+\nLänkar:
+\nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
+\nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
+\nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+</string>
+<!-- Import and Export //-->
+<string name="error">Fel</string>
+<!-- note 2 self: 'import' is a reserved keyword //-->
+<string name="data_import">Importera</string>
+<string name="data_export">Exportera</string>
+<string name="data_import_paste">Importera, klistra in här</string>
+<string name="data_import_error">Importerings Fel\nKontrollera datat och försök igen.</string>
+<string name="data_import_done">Importering slutförd</string>
+<!-- Welcome Screen //-->
+<string name="welcome_title">Välkommen!</string>
+<string name="welcome_message">Den här applikationen har uppdaterats!\nFrankkieNL sammarbetar nu med MLPMerch.com de nyaste Blind Bag uppgifterna!</string>
+<!-- Wave Descriptions //-->
+<string name="wave_1">Våg 1 innehåller 24 figurer, av vilka 3 är genomskinliga med glitter.</string>
+<string name="wave_2">Våg 2 innehåller 24 figurer, av vilka 3 är genomskinliga med glitter. (Endast EU)</string>
+<string name="wave_3">Våg 3 innehåller 24 figurer, av vilka 3 är självlysande.</string>
+<string name="wave_4">Våg 4 innehåller 24 figurer, av vilka 3 är metalliska.</string>
+<string name="wave_5">Våg 5 innehåller 24 figurer.</string>
+<string name="wave_6">Våg 6 innehåller 24 figurer, av vilka 3 har ädelsten cutie marks.</string>
+<string name="wave_7">Våg 7 innehåller 24 figurer, som alla är genomskinliga med målat hår.</string>
+<string name="wave_8">Våg 8 innehåller 24 figurer, som alla är genomskinliga (neon) med målat hår.</string>
+<string name="wave_8a">Våg 8A innehåller 12 figurer, som alla är genomskinliga (neon) med målat hår. (Endast UK)</string>
+<string name="wave_8b">Våg 8B innehåller 12 figurer, som alla är genomskinliga (neon) med målat hår. (Endast UK)</string>
+<string name="wave_9">Våg 9 innehåller 24 figurer, av vilka 3 är regnbågifierade ponnier.</string>
+<string name="wave_9a">Våg 9A innehåller 12 figurer, av vilka 1 är en regnbågifierad ponny. (Enadast UK)</string>
+<string name="wave_9b">Våg 9B innehåller 12 figurer, av vilka 2 är regnbågifierade ponnier. (Endast UK)</string>
+<string name="wave_10">Våg 10 innehåller 24 figurer, som alla är genomskinliga med målat hår och glitter.</string>
+<string name="wave_10a">Våg 10A innehåller 12 figurer, som alla är genomskinliga med målat hår och glitter (Endast UK)</string>
+<string name="wave_11">Våg 11 innehåller 24 figurer.</string>
+<string name="wave_collection_sets">Samlings-set är speciella släpp med få figurer som är butikseklusiva.</string>
+<string name="wave_mini_sets">Mini-set innehåller 3 till 6 figurer baserade på ett specifikt tema.</string>
+<!-- Buttons //-->
+<string name="btn_codes">Koder</string>
+<string name="btn_tutorial">Handledning</string>
+<!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+<string name="btn_credits">Erkännanden</string>
+<string name="wave">Våg</string>
+<string name="waves">Vågar</string>
+<string name="collection_sets">Samlings-set</string>
+<string name="mini_sets">Mini-set</string>
+</resources>
