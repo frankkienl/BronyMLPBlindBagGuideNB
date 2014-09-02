@@ -23,6 +23,7 @@ E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-fr\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-nl\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-pl\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-ru\strings.xml \
+E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sv\strings.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw600dp\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-sw720dp-land\dimens.xml \
 E:\Dropbox\NetbeansGithub\BronyMLPBlindBagGuide\res\values-v11\styles.xml \
