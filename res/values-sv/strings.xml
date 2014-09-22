@@ -24,7 +24,7 @@ Steg 3: Använd den här appen för att se vilken ponny i den valda vågen som m
 <string name="tut2">
 Denna Våg 5 blind bag har koden #70192 (#09), vilken är Rainbow Dash!</string>
 <string name="tut3">
-Denna Våg 9 blind bag has koden AH, vilken är Shoeshine!</string>
+Denna Våg 9 blind bag har koden AH, vilken är Shoeshine!</string>
 <string name="credits">
 Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
 \nDen ursprungliga (flash) applikationen är gjord av Jaroslav Vozar.
@@ -37,6 +37,7 @@ Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
 \nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
 \nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
 </string>
+
 <!-- Import and Export //-->
 <string name="error">Fel</string>
 <!-- note 2 self: 'import' is a reserved keyword //-->
@@ -45,9 +46,11 @@ Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
 <string name="data_import_paste">Importera, klistra in här</string>
 <string name="data_import_error">Importerings Fel\nKontrollera datat och försök igen.</string>
 <string name="data_import_done">Importering slutförd</string>
+
 <!-- Welcome Screen //-->
 <string name="welcome_title">Välkommen!</string>
 <string name="welcome_message">Den här applikationen har uppdaterats!\nFrankkieNL samarbetar nu med MLPMerch.com för de senaste Blind Bag uppgifterna!</string>
+
 <!-- Wave Descriptions //-->
 <string name="wave_1">Våg 1 innehåller 24 figurer, av vilka 3 är genomskinliga med glitter.</string>
 <string name="wave_2">Våg 2 innehåller 24 figurer, av vilka 3 är genomskinliga med glitter. (Endast EU)</string>
@@ -67,6 +70,7 @@ Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
 <string name="wave_11">Våg 11 innehåller 24 figurer.</string>
 <string name="wave_collection_sets">Samlings-set är speciella släpp med få figurer som är butikseklusiva.</string>
 <string name="wave_mini_sets">Mini-set innehåller 3 till 6 figurer baserade på ett specifikt tema.</string>
+
 <!-- Buttons //-->
 <string name="btn_codes">Koder</string>
 <string name="btn_tutorial">Handledning</string>
@@ -76,4 +80,6 @@ Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
 <string name="waves">Vågar</string>
 <string name="collection_sets">Samlings-set</string>
 <string name="mini_sets">Mini-set</string>
+
+<string name="credits_translator">Denna app har blivit översatt av:</string>
 </resources>

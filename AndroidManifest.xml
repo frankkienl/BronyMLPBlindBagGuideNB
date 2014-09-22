@@ -2,11 +2,13 @@
 <!--
 http://developer.android.com/guide/topics/data/install-location.html
 
-2.x (15):
+2.2.2 (15):
 Added Spanish (#6)
 Added German (#6)
 Added Russion text for buttons (#10)
+Added Swedish (#6)
 Fixed Typo in English text
+Fixed fixed Wave 10a (#13)
 
 2.2.1 (14):
 Added Polish (#6)
@@ -60,8 +62,8 @@ Removed redundant 'Settings' button
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="nl.frankkie.bronymlpblindbagguide"
           android:installLocation="preferExternal"
-          android:versionCode="14"
-          android:versionName="2.2.1" >
+          android:versionCode="15"
+          android:versionName="2.2.2" >
 
     <uses-sdk
         android:minSdkVersion="7"
