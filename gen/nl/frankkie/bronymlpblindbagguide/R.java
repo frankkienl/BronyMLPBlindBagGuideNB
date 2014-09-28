@@ -70,7 +70,7 @@ public final class R {
  Buttons //
  Buttons //
          */
-        public static final int btn_codes=0x7f050021;
+        public static final int btn_codes=0x7f050022;
         /**  meaning: 'creators, contributor, authors'; or 'about this app' //
  meaning: 'creators, contributor, authors'; or 'about this app' //
  meaning: 'creators, contributor, authors'; or 'about this app' //
@@ -80,11 +80,11 @@ public final class R {
  meaning: 'creators, contributor, authors'; or 'about this app' //
  meaning: 'creators, contributor, authors'; or 'about this app' //
          */
-        public static final int btn_credits=0x7f050023;
-        public static final int btn_tutorial=0x7f050022;
-        public static final int collection_sets=0x7f050026;
+        public static final int btn_credits=0x7f050024;
+        public static final int btn_tutorial=0x7f050023;
+        public static final int collection_sets=0x7f050027;
         public static final int credits=0x7f050006;
-        public static final int credits_translator=0x7f050028;
+        public static final int credits_translator=0x7f050029;
         public static final int data_export=0x7f050009;
         /**  note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //
@@ -110,11 +110,11 @@ public final class R {
          */
         public static final int error=0x7f050007;
         public static final int main_welcome=0x7f050001;
-        public static final int mini_sets=0x7f050027;
+        public static final int mini_sets=0x7f050028;
         public static final int tut1=0x7f050003;
         public static final int tut2=0x7f050004;
         public static final int tut3=0x7f050005;
-        public static final int wave=0x7f050024;
+        public static final int wave=0x7f050025;
         /**  Wave Descriptions //
  Wave Descriptions //
  Wave Descriptions //
@@ -127,7 +127,8 @@ public final class R {
         public static final int wave_1=0x7f05000f;
         public static final int wave_10=0x7f05001c;
         public static final int wave_10a=0x7f05001d;
-        public static final int wave_11=0x7f05001e;
+        public static final int wave_10b=0x7f05001e;
+        public static final int wave_11=0x7f05001f;
         public static final int wave_2=0x7f050010;
         public static final int wave_3=0x7f050011;
         public static final int wave_4=0x7f050012;
@@ -140,9 +141,9 @@ public final class R {
         public static final int wave_9=0x7f050019;
         public static final int wave_9a=0x7f05001a;
         public static final int wave_9b=0x7f05001b;
-        public static final int wave_collection_sets=0x7f05001f;
-        public static final int wave_mini_sets=0x7f050020;
-        public static final int waves=0x7f050025;
+        public static final int wave_collection_sets=0x7f050020;
+        public static final int wave_mini_sets=0x7f050021;
+        public static final int waves=0x7f050026;
         public static final int welcome_message=0x7f05000e;
         /**  Welcome Screen //
  Welcome Screen //

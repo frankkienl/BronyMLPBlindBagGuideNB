@@ -67,9 +67,10 @@ This application is made by FrankkieNL, Fluffikens and MLPMerch.com.
     <string name="wave_9b">Wave 9B contains 12 figures, 2 of which are rainbowfied ponies. (UK Only)</string>
     <string name="wave_10">Wave 10 contains 24 figures, all are transparent with painted hair and glitter.</string>
     <string name="wave_10a">Wave 10A contains 12 figures, all are transparent with painted hair and glitter. (UK Only)</string>
+    <string name="wave_10b">Wave 10B contains 12 figures, all are transparent with painted hair and glitter. (UK Only)</string>
     <string name="wave_11">Wave 11 contains 24 figures.</string>
     <string name="wave_collection_sets">Collection sets are special releases with a few figures, exclusive to a certain store.</string>
-    <string name="wave_mini_sets">Mini sets contain 3 to 6 characters based on a certain theme.</string>
+    <string name="wave_mini_sets">Mini sets contain 3 to 6 figures based on a certain theme.</string>
     
     <!-- Buttons //-->
     <string name="btn_codes">Codes</string>
@@ -80,5 +81,5 @@ This application is made by FrankkieNL, Fluffikens and MLPMerch.com.
     <string name="waves">Waves</string>
     <string name="collection_sets">Collection Sets</string>
     <string name="mini_sets">Mini Sets</string>
-    
+      
 </resources>

@@ -2,6 +2,12 @@
 <!--
 http://developer.android.com/guide/topics/data/install-location.html
 
+2.2.3 (16):
+Added wave 10b (#14)
+Fixed whitespace in Spanish translation (no UI impact)
+Fixed English Translation (#12)
+Added translator credits (#15) TODO
+
 2.2.2 (15):
 Added Spanish (#6)
 Added German (#6)
@@ -62,8 +68,8 @@ Removed redundant 'Settings' button
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="nl.frankkie.bronymlpblindbagguide"
           android:installLocation="preferExternal"
-          android:versionCode="15"
-          android:versionName="2.2.2" >
+          android:versionCode="16"
+          android:versionName="2.2.3" >
 
     <uses-sdk
         android:minSdkVersion="7"

@@ -5,9 +5,7 @@
     <string name="main_welcome">Guia de Bolsita Sorpresa (Blind Bag) My Little Pony G4
         \nCreado usando información de MLPMerch.com Blind Bag Database.
         \n
-        \n¡Visite MLPMerch.com para obtener información de la base de datos sobre las bolsitas sorpresa, e información
- 
-        sobre las otras mercancías!</string>
+        \n¡Visite MLPMerch.com para obtener información de la base de datos sobre las bolsitas sorpresa, e información sobre las otras mercancías!</string>
     <string name="action_settings">Ajustes</string>
     <string name="tut1">
         ¿Sabias que es posible predecir el contenido de una MLP bolsita sorpresa (blind bag) sin abrirla?
@@ -55,43 +53,26 @@
     <string name="data_import_done">Importación Completa</string>
     <!-- Welcome Screen //-->
     <string name="welcome_title">¡Bienvenidos!</string>
-    <string name="welcome_message">¡Aplicación fue actualizada!\n¡FrankkieNL ahora esta colaborando con MLPMerch.com
- 
-        para proveer la información más actualizada de bolsitas sorpresas!</string>
+    <string name="welcome_message">¡Aplicación fue actualizada!\n¡FrankkieNL ahora esta colaborando con MLPMerch.com para proveer la información más actualizada de bolsitas sorpresas!</string>
     <!-- Wave Descriptions //-->
     <string name="wave_1">Wave 1 contiene 24 figuras, 3 en las cuales son transparentes con brillo.</string>
-    <string name="wave_2">Wave 2 contiene 24 figuras, 3 en las cuales son transparentes con brillo. (Solo en Europa)
- 
-    </string>
+    <string name="wave_2">Wave 2 contiene 24 figuras, 3 en las cuales son transparentes con brillo. (Solo en Europa)</string>
     <string name="wave_3">Wave 3 contiene 24 figuras, 3 en las cuales brillan en la oscuridad.</string>
     <string name="wave_4">Wave 4 contiene 24 figuras, 3 en las cuales son metálicas.</string>
     <string name="wave_5">Wave 5 contiene 24 figuras.</string>
     <string name="wave_6">Wave 6 contiene 24 figuras, 3 en las cuales tienen marcas de gemas.</string>
-    <string name="wave_7">Wave 7 contiene 24 figuras, en las cuales todas son transparentes, con cabello
- 
-        pintado.</string>
-    <string name="wave_8">Wave 8 contiene 24 figuras, en las cuales todas son transparentes en neón, con cabello
- 
-        pintado.</string>
-    <string name="wave_8a">Wave 8A contiene 12 figuras, en las cuales todas son transparentes en neón, con cabello
- 
-        pintado. (Solo en Europa)</string>
-    <string name="wave_8b">Wave 8B contiene 12 figuras, en las cuales todas son transparentes en neón, con cabello
- 
-        pintado. (Solo en Europa)</string>
+    <string name="wave_7">Wave 7 contiene 24 figuras, en las cuales todas son transparentes, con cabello pintado.</string>
+    <string name="wave_8">Wave 8 contiene 24 figuras, en las cuales todas son transparentes en neón, con cabello pintado.</string>
+    <string name="wave_8a">Wave 8A contiene 12 figuras, en las cuales todas son transparentes en neón, con cabello pintado. (Solo en Europa)</string>
+    <string name="wave_8b">Wave 8B contiene 12 figuras, en las cuales todas son transparentes en neón, con cabello pintado. (Solo en Europa)</string>
     <string name="wave_9">Wave 9 contiene 24 figuras, 3 en las cuales son ponis arco iris.</string>
     <string name="wave_9a">Wave 9A contiene 12 figuras, 1 en la cual es un pony arco iris. (Solo en Europa)</string>
     <string name="wave_9b">Wave 9B contiene 12 figuras, 2 en las cuales son ponis arco iris. (Solo en Europa)</string>
-    <string name="wave_10">Wave 10 contiene 24 figuras, todas son transparentes, con el cabello pintado, y con
- 
-        brillo.</string>
-    <string name="wave_10a">Wave 10A contiene 12 figuras, todas son transparentes, con el cabello pintado, y con
- 
-        brillo. (Solo en Europa)</string>
+    <string name="wave_10">Wave 10 contiene 24 figuras, todas son transparentes, con el cabello pintado, y con brillo.</string>
+    <string name="wave_10a">Wave 10A contiene 12 figuras, todas son transparentes, con el cabello pintado, y con brillo. (Solo en Europa)</string>
+    <string name="wave_10b">Wave 10B contiene 12 figuras, todas son transparentes, con el cabello pintado, y con brillo. (Solo en Europa)</string>
     <string name="wave_11">Wave 11 contiene 24 figuras.</string>
-    <string name="wave_collection_sets">Colecciones de versiones especiales contienen figuras exclusivas en tiendas
- 
-        exclusivas.</string>
+    <string name="wave_collection_sets">Colecciones de versiones especiales contienen figuras exclusivas en tiendas exclusivas.</string>
     <string name="wave_mini_sets">Mini Set contiene 3 a 6 personajes basados en un tema en específico.</string>
     <!-- Buttons //-->
     <string name="btn_codes">Códigos</string>
