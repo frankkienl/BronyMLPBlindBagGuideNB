@@ -2,6 +2,7 @@ package nl.frankkie.bronymlpblindbagguide;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -34,7 +35,12 @@ public class WaveActivity extends ListActivity {
         }
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         initUI();
-        Log.v("MLP", "Wave init done");     
+        Log.v("MLP", "Wave init done");    
+        
+        //Return ListView Scroll-position (#16)
+        Intent result = new Intent();
+        result.putExtra("waves_listview_position", getIntent().getIntExtra("waves_listview_position", 0));
+        setResult(RESULT_OK, result);
     }
     
     public void initUI(){

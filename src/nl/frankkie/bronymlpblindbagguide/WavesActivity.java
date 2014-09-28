@@ -27,7 +27,9 @@ import nl.frankkie.bronymlpblindbagguide.model.WaveManager;
  */
 public class WavesActivity extends ListActivity {
 
+    public static final int WAVE_REQUEST_CODE = 12345;
     WaveManager wavemanager;
+    int scrollToItem = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,10 +60,21 @@ public class WavesActivity extends ListActivity {
     }
 
     @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        //This will be called before onResume      
+        //This is made to scroll back to last used wave. (#16)
+        if (requestCode == WAVE_REQUEST_CODE && resultCode == Activity.RESULT_OK){
+            scrollToItem = data.getIntExtra("waves_listview_position", 0);
+        }
+    }    
+    
+    @Override
     protected void onResume() {
         super.onResume();
         //re init, to show new progress !!
-        initUI();
+        //Because of the re-init, it would scroll to the top.     
+        //Thats fixed by scrolling after setting adapter. (#16)
+        initUI(); 
     }
 
     private void initUI() {
@@ -69,6 +82,7 @@ public class WavesActivity extends ListActivity {
         //ListView lv = (ListView) findViewById(android.R.id.list);
         ListView lv = getListView();
         lv.setAdapter(new WavesListViewAdapter(this));
+        lv.setSelection(scrollToItem); //(#16)
     }
 
     public class WavesListViewAdapter extends BaseAdapter {
@@ -96,7 +110,7 @@ public class WavesActivity extends ListActivity {
             return position;
         }
 
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(final int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
                 convertView = (View) inflater.inflate(R.layout.layout_row, parent, false);
             }
@@ -132,7 +146,8 @@ public class WavesActivity extends ListActivity {
                     Intent intent = new Intent();
                     intent.setClass(WavesActivity.this, WaveActivity.class);
                     intent.putExtra("wave", w);
-                    startActivity(intent);
+                    intent.putExtra("waves_listview_position", position);
+                    startActivityForResult(intent, WAVE_REQUEST_CODE);
                 }
             });
             return convertView;
