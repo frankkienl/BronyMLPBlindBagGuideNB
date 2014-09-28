@@ -134,7 +134,7 @@ public class Util {
         Wave w10 = new Wave(context, 10, waveString + " 10", R.string.wave_10, "covers/mlp-wave-10-blind-bag.jpg", "data/wave-10.csv");
         Wave w10a = new Wave(context, 101, waveString + " 10a", R.string.wave_10a, "covers/mlp-wave-10a-uk-blind-bag.jpg", "data/wave-10a.csv");
         //Wave 10b has the same cover image as wave 10a
-        Wave w10b = new Wave(context, 102, waveString + " 10b", R.string.wave_10a, "covers/mlp-wave-10a-uk-blind-bag.jpg", "data/wave-10b.csv");
+        Wave w10b = new Wave(context, 102, waveString + " 10b", R.string.wave_10b, "covers/mlp-wave-10a-uk-blind-bag.jpg", "data/wave-10b.csv");
         Wave w11 = new Wave(context, 11, waveString + " 11", R.string.wave_11, "covers/mlp-wave-11-blind-bag.jpg", "data/wave-11.csv");
         Wave collectionSets = new Wave(context, 9001, collectionSetsString, R.string.wave_collection_sets, "covers/mlp-collection-sets-blind-bag.jpg", "data/collection-sets.csv");
         Wave miniSets = new Wave(context, 9002, miniSetsString, R.string.wave_mini_sets, "covers/mlp-mini-sets-blind-bag.jpg", "data/mini-sets.csv");

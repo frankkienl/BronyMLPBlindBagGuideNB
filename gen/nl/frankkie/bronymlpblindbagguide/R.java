@@ -85,6 +85,7 @@ public final class R {
         public static final int collection_sets=0x7f050027;
         public static final int credits=0x7f050006;
         public static final int credits_translator=0x7f050029;
+        public static final int credits_translator_names=0x7f05002a;
         public static final int data_export=0x7f050009;
         /**  note 2 self: 'import' is a reserved keyword //
  note 2 self: 'import' is a reserved keyword //

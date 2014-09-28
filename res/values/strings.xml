@@ -82,4 +82,16 @@ This application is made by FrankkieNL, Fluffikens and MLPMerch.com.
     <string name="collection_sets">Collection Sets</string>
     <string name="mini_sets">Mini Sets</string>
       
+    <string name="credits_translator">This app has been translated by:</string>
+    <string name="credits_translator_names">
+        Dutch - Ossie7 and FrankkieNL
+        \nEnglish - Ossie7
+        \nFrench - Silou_Fr
+        \nRussian - Tomo
+        \nPolish - ElectricPsoras
+        \nGerman - Rainbow_Dashie
+        \nSpanish - ConfusionRift
+        \nSwedish - Dekko
+    </string>  
+      
 </resources>

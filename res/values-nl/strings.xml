@@ -83,4 +83,6 @@ Deze app is gemaakt door FrankkieNL, Fluffikens and MLPMerch.com.
     <string name="collection_sets">Collectie Sets</string>
     <string name="mini_sets">Mini Sets</string>
 
+    <string name="credits_translator">Deze app is vertaald door:</string>
+
 </resources>
